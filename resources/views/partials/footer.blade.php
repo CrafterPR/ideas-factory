@@ -154,5 +154,20 @@
 
         gtag('js', new Date());
         gtag('config', 'UA-11342327-11');
+        function showMenu() {
+            document.getElementById("top-menu").style.display = "none";
+            document.getElementById("full-menu").style.display = "flex";
+            document.body.style.overflow = "hidden";
+        }
+
+        function hideMenu() {
+            document.getElementById("top-menu").style.display = "block";
+            document.getElementById("full-menu").style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+
+        // expose globally so inline onclick="" can find them
+        window.showMenu = showMenu;
+        window.hideMenu = hideMenu;
     </script>
     @endpush

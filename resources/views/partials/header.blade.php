@@ -4,7 +4,7 @@
             <div class="top-menu-container custom-container">
                 <div class="left">
                     <a href="{{ route('/') }}">
-                        <img class="logo" src="{{ asset('img/logo-square.png') }}">
+                        <img class="logo" src="{{ asset('img/logo-square.png') }}" />
                         <p>A 360° <span class="green-text">events</span> agency</p>
                     </a>
                 </div>
@@ -22,7 +22,7 @@
                         <a class="text-link " href="{{ route('what-we-done') }}">
                             <p><span class="green-text">what</span> we've done</p>
                         </a>
-                        <a href="javascript:;" @click="showMenu">
+                        <a href="javascript:;" onclick="showMenu()">
                             <img class="burger" src="{{ asset('img/burger.png') }}" />
                         </a>
                     </nav>
@@ -32,7 +32,7 @@
 
         <div class="full-menu" id="full-menu">
             <div class="close-button-container custom-container">
-                <a class="close-button" href="javascript:;" @click="hideMenu">
+                <a class="close-button" href="javascript:;" onclick="hideMenu()">
                     <img src="{{ asset('img/close.png') }}" />
                 </a>
             </div>
@@ -54,10 +54,10 @@
                                 <img src="/img/twitter.png">
                             </a>-->
                             <a href="https://www.instagram.com/lifeatfresh" target="_blank">
-                                <img src="img/instagram.png">
+                                <img src="{{ asset('img/instagram.png') }}">
                             </a>
                             <a href="https://www.linkedin.com/company/fresh-group" target="_blank">
-                                <img src="img/linkedin.png">
+                                <img src="{{ asset('img/linkedin.png') }}">
                             </a>
                             <!--<a href="https://vimeo.com/freshgroup" target="_blank">
                                 <img src="/img/vimeo.png">
