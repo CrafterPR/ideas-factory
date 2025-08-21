@@ -5,7 +5,7 @@
                 <div class="left">
                     <a href="{{ route('/') }}">
                         <img class="logo" src="{{ asset('img/logo-square.png') }}">
-                        <p>Global <span class="green-text">brand experience</span> agency</p>
+                        <p>A 360° <span class="green-text">events</span> agency</p>
                     </a>
                 </div>
                 <div class="right">

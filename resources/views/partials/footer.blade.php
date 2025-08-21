@@ -4,7 +4,7 @@
             <div class="left">
                 <a href="{{ route('/') }}">
                     <img loading="lazy" class="logo" src="{{ asset('img/logo-text.png') }}" />
-                    <p>Global <span class="green-text">brand experience</span> agency</p>
+                    <p>A 360° <span class="green-text">events</span> agency</p>
                 </a>
                 <div class="contact-details">
                     <a href="tel:+254 721 586 644">+254 721 586 644</a>
