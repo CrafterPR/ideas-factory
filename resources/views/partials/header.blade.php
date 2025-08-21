@@ -23,7 +23,7 @@
                             <p><span class="green-text">what</span> we've done</p>
                         </a>
                         <a href="javascript:;" @click="showMenu">
-                            <img class="burger" src="{{ asset('img/burger.png') }}">
+                            <img class="burger" src="{{ asset('img/burger.png') }}" />
                         </a>
                     </nav>
                 </div>
@@ -33,7 +33,7 @@
         <div class="full-menu" id="full-menu">
             <div class="close-button-container custom-container">
                 <a class="close-button" href="javascript:;" @click="hideMenu">
-                    <img src="{{ asset('img/close.png') }}">
+                    <img src="{{ asset('img/close.png') }}" />
                 </a>
             </div>
             <div class="full-menu-container custom-container">
