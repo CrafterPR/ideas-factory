@@ -1,4 +1,4 @@
-name: Deploying Idead-Factory app on PROD
+name: Deploying Ideas-Factory app on PROD
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
 
       - name: Deploy via SSH
         run: |
-          ssh -tt -p ${{ secret.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
+          ssh -tt -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
             cd /var/www/ideas/
             git pull origin master
             composer install --no-interaction --prefer-dist --optimize-autoloader
