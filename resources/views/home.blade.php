@@ -52,8 +52,8 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="what-weve-done/ferrero-conference.html">
-                                <img loading="lazy" src="img/case-studies/banners/b9c6d6f622ff4e09aadd66baa7a5c584.jpg">
+                            <a href="{{ route('what-we-done-ferro-conference') }}">
+                                <img loading="lazy" src="{{ asset('img/case-studies/banners/b9c6d6f622ff4e09aadd66baa7a5c584.jpg') }}">
                                 <div class="custom-container">
                                     <h3>Company conference</h3>
                                     <p>Click to discover more</p>
@@ -130,7 +130,7 @@
             <div class="section-content">
                 <div class="heading-container custom-container">
                     <h3>Showreel</h3>
-                    <p>Watch our highlights from across the business, or <a href="what-weve-done.html">click here</a> to
+                    <p>Watch our highlights from across the business, or <a href="{{ route('what-we-do') }}">click here</a> to
                         take a <br>deeper dive into our latest projects.</p>
                 </div>
                 <div class="video-js-container">
@@ -144,7 +144,7 @@
                             "responsive": true
                         }'
                         src="https://d130dmucovph5d.cloudfront.net/videos/fresh_showreel.mp4"
-                        poster="img/showreel.jpg"
+                        poster="{{ asset('img/showreel.jpg') }}"
                     >
                         <p class="vjs-no-js">
                             To view this video please enable JavaScript, and consider upgrading to a
@@ -162,7 +162,7 @@
                 <div class="heading-container custom-container">
                     <h3>fresh life</h3>
                     <p>Check out our social channels and see what the team has been up to</p>
-                    <img loading="lazy" class="arrow-grid" src="img/arrow-grid.png">
+                    <img loading="lazy" class="arrow-grid" src="{{ asset('img/arrow-grid.png') }}">
                 </div>
                 <div class="custom-container">
                     <div class="social-links">
@@ -170,10 +170,10 @@
                             <img loading="lazy" src="/img/twitter.png">
                         </a>-->
                         <a href="https://www.instagram.com/lifeatfresh" target="_blank">
-                            <img loading="lazy" src="img/instagram.png">
+                            <img loading="lazy" src="{{ asset('img/instagram.png') }}">
                         </a>
                         <a href="https://www.linkedin.com/company/fresh-group" target="_blank">
-                            <img loading="lazy" src="img/linkedin.png">
+                            <img loading="lazy" src="{{ asset('img/linkedin.png') }}">
                         </a>
                         <!--<a href="https://vimeo.com/freshgroup" target="_blank">
                             <img loading="lazy" src="/img/vimeo.png">
@@ -189,22 +189,22 @@
                 </div>
                 <div class="award-images-container">
                     <div class="award-image-container">
-                        <img loading="lazy" src="img/award-logos/award1.png">
+                        <img loading="lazy" src="{{ asset('img/award-logos/award1.png') }}">
                     </div>
                     <div class="award-image-container">
-                        <img loading="lazy" src="img/award-logos/award2.png">
+                        <img loading="lazy" src="{{ asset('img/award-logos/award2.png') }}">
                     </div>
                     <div class="award-image-container">
-                        <img loading="lazy" src="img/award-logos/award3.png">
+                        <img loading="lazy" src="{{ asset('img/award-logos/award3.png') }}">
                     </div>
                     <div class="award-image-container">
-                        <img loading="lazy" src="img/award-logos/award4.png">
+                        <img loading="lazy" src="{{ asset('img/award-logos/award4.png') }}">
                     </div>
                     <div class="award-image-container">
-                        <img loading="lazy" src="img/award-logos/award5.png">
+                        <img loading="lazy" src="{{ asset('img/award-logos/award5.png') }}">
                     </div>
                     <div class="award-image-container">
-                        <img loading="lazy" src="img/award-logos/award6.png">
+                        <img loading="lazy" src="{{ asset('img/award-logos/award6.png') }}">
                     </div>
                 </div>
             </div>
