@@ -19,7 +19,8 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+          # Add host key with custom port
+          ssh-keyscan -p ${{ secrets.SSH_PORT }} -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy via SSH
         run: |
@@ -32,6 +33,6 @@ jobs:
             php artisan migrate --force
             php artisan optimize:clear
             php artisan optimize
-            rm bootstrap/cache/*
+            rm -rf bootstrap/cache/*
             exit
           EOF
