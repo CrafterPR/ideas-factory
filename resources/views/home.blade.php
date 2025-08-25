@@ -13,17 +13,21 @@
             <div class="custom-container section-content">
                 <div class="row">
                     <div class="col-0 col-sm-0 col-md-2 col-lg-4 d-none d-md-block">
-                        <img loading="lazy" class="black-arrow-down" src="{{ asset('img/arrow-solid-down-black.png') }}">
-                        <img loading="lazy" class="black-arrow-down" src="{{ asset('img/arrow-solid-down-black.png') }}">
-                        <img loading="lazy" class="black-arrow-down" src="{{ asset('img/arrow-solid-down-black.png') }}">
-                        <img loading="lazy" class="black-arrow-down" src="{{ asset('img/arrow-solid-down-black.png') }}">
+                        <img loading="lazy" class="black-arrow-down" src="{{ asset('img/arrow-solid-down-black.png') }}" />
+                        <img loading="lazy" class="black-arrow-down" src="{{ asset('img/arrow-solid-down-black.png') }}" />
+                        <img loading="lazy" class="black-arrow-down" src="{{ asset('img/arrow-solid-down-black.png') }}" />
+                        <img loading="lazy" class="black-arrow-down" src="{{ asset('img/arrow-solid-down-black.png') }}" />
                     </div>
                     <div class="col-12 col-sm-12 col-md-10 col-lg-8">
                         <h2>we live up to our name</h2>
-                        <p>A global brand experience agency fusing intelligent creativity, joined-up thinking and
-                            compelling storytelling to create immersive experiences through brand activations, events,
-                            creative communication and integrated marketing for organisations around the world to
-                            own.</p>
+                        <p>Aidias Factory is a 360° events management agency based in Kenya
+                            and a regional leader in delivering world-class experiences.
+                            We combine technical excellence with creative innovation to
+                            design and execute immersive events. With core strengths in
+                            audio-visuals, stage design, screens, sound, lighting, tentage,
+                            and production—including photography, videography, and livestreaming—we
+                            transform ideas into unforgettable experiences. Our integrated approach
+                            ensures that every event is not just seen, but truly felt.</p>
                         <p><b>Let us show you the amazing things that happen here</b></p>
                     </div>
                 </div>
@@ -35,7 +39,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <a href="{{ route('what-we-done-store-opening') }}">
-                                <img loading="lazy" src="{{ asset('img/case-studies/banners/399f89c9b483e44d3cabc60ff1781d9d.jpg') }}">
+                                <img loading="lazy" src="{{ asset('img/case-studies/banners/399f89c9b483e44d3cabc60ff1781d9d.jpg') }}" />
                                 <div class="custom-container">
                                     <h3>Delivering new store launches with impact</h3>
                                     <p>Click to discover more</p>

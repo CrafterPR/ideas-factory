@@ -97,7 +97,7 @@
     </div>
     <div class="footer-copyright">
         <div class="custom-container">
-            <p>Copyright &copy; <?php echo date('Y') ?> The fresh Group</p>
+            <p>Copyright &copy; 2016 The Aidias Factory</p>
         </div>
     </div>
 </div>
