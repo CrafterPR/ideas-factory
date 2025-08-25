@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import tailwindcss from '@tailwindcss/vite';
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 export default defineConfig({
     plugins: [
@@ -9,5 +10,17 @@ export default defineConfig({
             refresh: true,
         }),
         tailwindcss(),
+        viteStaticCopy({
+            targets: [
+                {
+                    src: 'resources/fonts',
+                    dest: 'assets',   // ends up in public/build/assets/fonts
+                },
+                {
+                    src: 'resources/img',
+                    dest: '../',   // optional for your images
+                }
+            ]
+        })
     ],
 });

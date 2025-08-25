@@ -76,49 +76,43 @@
                 <div class="swiper swiper-client-logos">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/2a5ee61b5d4cce0d5d7272bd2a318411.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/British Council logo-02.png') }}">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/5364f96b032a74ed67b26e3c2759dc8e.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/NCA-logo grayscale-01.png') }}">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/3e6531ab9fe28cf668a3067b2609e95c.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/giz logo-02.png') }}">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/samsung.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/ICC Church logo-02.png') }}">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/coop.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/Jubilee logo-02.png') }}">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/091de7fabadb05d4a356d3faef3458d4.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/Kasneb logo-02.png') }}">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/5de3e3a6a5f2f6821766948dc608a34d.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/KCAA logo-02.png') }}">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/609c0fe53ac9400ae3e497d5a342e290.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/KeNIA logo-02.png') }}">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/2de8aee70c6d2ceaccb922571d7c79b1.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/KFCB logo-02.png') }}">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/6d9d3d924f4201a319ccc0ad8107f6cc.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/Stima Sacco logo-02.png') }}">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/5ebf0d9fd4477359d40110991e3c6b3e.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/The CommonWealth logo-02.png') }}">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/23cd2e50688c282c61e4ae5d22f47372.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/The Edge logo-02.png') }}">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/f7194e55def44bf7a9504229adb355d2.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/58a34e6d1054e4935ae63225b77e4d25.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/c82c24d8e3990847ecbf8c04177c9beb.png') }}">
+                            <img loading="lazy" src="{{ asset('img/client-logos/UKTech Hub logo-02.png') }}">
                         </div>
                     </div>
                 </div>
@@ -173,11 +167,11 @@
                         <!--<a href="https://twitter.com/freshgroup" target="_blank">
                             <img loading="lazy" src="/img/twitter.png">
                         </a>-->
-                        <a href="https://www.instagram.com/lifeatfresh" target="_blank">
+                        <a href="https://www.instagram.com/aidiasfactory" target="_blank">
                             <img loading="lazy" src="{{ asset('img/instagram.png') }}">
                         </a>
-                        <a href="https://www.linkedin.com/company/fresh-group" target="_blank">
-                            <img loading="lazy" src="{{ asset('img/linkedin.png') }}">
+                        <a href="https://www.facebook.com/aidiasfactory" target="_blank">
+                            <img loading="lazy" src="{{ asset('img/facebook.png') }}">
                         </a>
                         <!--<a href="https://vimeo.com/freshgroup" target="_blank">
                             <img loading="lazy" src="/img/vimeo.png">

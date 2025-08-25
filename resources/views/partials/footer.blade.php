@@ -8,7 +8,7 @@
                 </a>
                 <div class="contact-details">
                     <a href="#">+254 0116000333 | +254 0116000444 </a>
-                    <a href="mailto:hello@ideasfactory.co.ke">events@aidiasfactory.co.ke</a>
+                    <a href="mailto:events@aidiasfactory.co.ke">events@aidiasfactory.co.ke</a>
                 </div>
             </div>
             <div class="right">
@@ -20,7 +20,7 @@
                         <p>2-10 Albert Square</p>
                         <p>Nairobi</p>
                         <p>M2 6LW</p>
-                        <a href="https://w3w.co/fairly.grand.popped" target="_blank">
+                        <a href="#" target="_blank">
                             <p class="w3w"><span class="green-text">///</span>fairly.
                                 <wbr>
                                 grand.
@@ -35,7 +35,7 @@
                         <p>1 St Colme Street</p>
                         <p>Edinburgh</p>
                         <p>EH3 6AA</p>
-                        <a href="https://w3w.co/bind.deaf.happen" target="_blank">
+                        <a href="#" target="_blank">
                             <p class="w3w"><span class="green-text">///</span>bind.
                                 <wbr>
                                 deaf.
@@ -121,6 +121,7 @@
 </div>
 @push('scripts')
     <script>
+
         function getCookie(name) {
             var nameEQ = name + "=";
             var ca = document.cookie.split(';');
