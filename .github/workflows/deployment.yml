@@ -1,4 +1,4 @@
-name: Deploying Ideas-Factory app on PROD
+name: Deploying Aidias-Factory app on PROD
 
 on:
   push:

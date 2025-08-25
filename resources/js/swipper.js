@@ -1,6 +1,6 @@
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
-import {Autoplay, FreeMode} from "swiper/modules";
+import {Autoplay, FreeMode, Pagination} from "swiper/modules";
 
 
  new Swiper('.swiper-client-logos', {
@@ -40,3 +40,26 @@ import {Autoplay, FreeMode} from "swiper/modules";
         el: '.swiper-scrollbar',
     },
 });
+
+new Swiper(".swiper-header",
+    {modules:[Autoplay],
+        direction:"horizontal",
+        loop:!0,
+        autoplay:{delay:1e4}
+    });
+
+new Swiper(".swiper-header",
+    {modules:[Autoplay],
+        direction:"horizontal",
+        loop:!0,autoplay:{delay:1e4}
+    })
+
+new Swiper(".swiper-case-studies",
+    {modules:[Pagination,Autoplay],
+        direction:"horizontal",
+        loop:true,
+        autoplay:{delay:5e3},
+        pagination:{el:".swiper-pagination",
+            clickable:!0}
+    })
+
