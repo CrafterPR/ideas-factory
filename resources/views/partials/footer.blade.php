@@ -7,8 +7,8 @@
                     <p>A 360° <span class="green-text">events</span> agency</p>
                 </a>
                 <div class="contact-details">
-                    <a href="tel:+254 721 586 644">+254 721 586 644</a>
-                    <a href="mailto:hello@ideasfactory.co.ke">hello@ideasfactory.co.ke</a>
+                    <a href="#">+254 0116000333 | +254 0116000444 </a>
+                    <a href="mailto:hello@ideasfactory.co.ke">events@aidiasfactory.co.ke</a>
                 </div>
             </div>
             <div class="right">

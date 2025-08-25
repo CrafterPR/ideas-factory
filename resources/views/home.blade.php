@@ -124,8 +124,8 @@
                 </div>
                 <div class="client-logos-cta custom-container">
                     <div class="text-center text-md-end">
-                        <p>Some of the world's biggest brands trust us <br>to tell their stories, <a
-                                href="{{ route('what-we-do') }}" class="green-text">you should too</a></p>
+                        <p>From Nairobi to the world, top brands trust us with their stories.  <a
+                                href="{{ route('what-we-do') }}" class="green-text">yours should be next</a></p>
                     </div>
                 </div>
             </div>
@@ -189,7 +189,7 @@
         <div class="awards-section">
             <div class="section-content custom-container">
                 <div>
-                    <h3>We don't like to boast, but...</h3>
+                    <h3>Did we mention we’re the engine behind the flawless execution of these world-class events?</h3>
                 </div>
                 <div class="award-images-container">
                     <div class="award-image-container">
