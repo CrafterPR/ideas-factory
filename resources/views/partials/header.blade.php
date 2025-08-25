@@ -93,4 +93,3 @@
         </div>
     </div>
 </header-menu>
-<home inline-template>
