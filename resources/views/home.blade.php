@@ -2,7 +2,7 @@
 <home inline-template>
     <div class="homepage">
         <video autoplay muted loop playsinline class="background-video">
-            <source src="https://d130dmucovph5d.cloudfront.net/videos/work.mp4?v=113522" type="video/mp4">
+            <source src="https://craftedpr.co.ke/assets/images/finalreel.mp4" type="video/mp4">
         </video>
         <div class="page-header-section">
             <h1 class="parallax-slow">Creating ama<span class="green-text">zing</span> brand experiences</h1>
