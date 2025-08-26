@@ -2,7 +2,7 @@
   <header-menu />
     <router-view v-slot="{ Component }">
         <component :is="Component" />
-        <pre> {{ Component.name }}</pre>
+        <pre> {{ Component?.name }}</pre>
     </router-view>
     <footer-menu />
 </template>
