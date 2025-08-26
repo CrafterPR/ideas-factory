@@ -1,7 +1,6 @@
+import './main.js'
+import './script.js'
 
-import './script.js';
-import './bootstrap';
-import './swipper.js';
 
 
 

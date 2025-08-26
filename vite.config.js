@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import tailwindcss from '@tailwindcss/vite';
-import { viteStaticCopy } from 'vite-plugin-static-copy';
+import path from 'path';
+import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
     plugins: [
@@ -10,17 +11,30 @@ export default defineConfig({
             refresh: true,
         }),
         tailwindcss(),
-        viteStaticCopy({
-            targets: [
-                {
-                    src: 'resources/fonts',
-                    dest: 'assets',   // ends up in public/build/assets/fonts
-                },
-                {
-                    src: 'resources/img',
-                    dest: '../',   // optional for your images
-                }
-            ]
-        })
+        vue(),
+
     ],
+    server: {
+        host: '0.0.0.0',
+        port: 5174,
+        origin: process.env.VITE_DEV_SERVER_URL,
+        cors: true
+    },
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname, 'resources/js'),
+        },
+    },
+    build: {
+        rollupOptions: {
+            output: {
+                assetFileNames: (assetInfo) => {
+                    if (/\.ttf$|\.woff2?$|\.eot$|\.otf$/.test(assetInfo.name)) {
+                        return 'assets/fonts/[name][extname]';
+                    }
+                    return 'assets/[name]-[hash][extname]';
+                },
+            },
+        },
+    },
 });
