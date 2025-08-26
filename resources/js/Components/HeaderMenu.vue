@@ -1,5 +1,5 @@
 <template>
-    <div v-if="!showMenu" class="top-menu" id="top-menu-new">
+    <div v-if="!showMenu" class="top-menu" id="top-menu">
         <div class="top-menu-container custom-container">
             <!-- Left logo -->
             <div class="left">
@@ -33,7 +33,7 @@
     </div>
 
     <!-- Full Menu -->
-    <div v-show="showMenu" class="full-menu" id="full-menu-new">
+    <div v-show="showMenu" class="full-menu" id="full-menu">
         <div class="close-button-container custom-container">
             <a class="close-button" href="javascript:;" @click.prevent="openCloseMenu">
                 <img :src="`${baseUrl}/img/close.png`"  alt=""/>
@@ -100,26 +100,27 @@ import {onMounted, ref, watch} from 'vue'
 const baseUrl = '';
 let showMenu = ref(false);
 const openCloseMenu = () => {
-    showMenu.value =!showMenu.value;
+    showMenu.value = !showMenu.value;
 }
 onMounted(() => {
     watch(showMenu, (val) => {
-        const topMenu = document.getElementById("top-menu-new")
-        const fullMenu = document.getElementById("full-menu-new")
-
+        const topMenu = document.getElementById("top-menu")
+        const fullMenu = document.getElementById("full-menu")
+        console.log(fullMenu)
+        fullMenu.style.backgroundColor = "black"
 
         if (!topMenu || !fullMenu) return  // prevent null error
 
         if (val) {
             topMenu.style.display = "none"
-            fullMenu.style.display = "flex"
-            document.body.style.overflow = "hidden"
+            fullMenu.style.display = "block"
+           document.body.style.overflow = "hidden"
         } else {
             topMenu.style.display = "block"
             fullMenu.style.display = "none"
             document.body.style.overflow = "auto"
         }
-        console.log(val,topMenu, fullMenu)
+
     })
 })
 

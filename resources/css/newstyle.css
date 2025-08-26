@@ -1,0 +1,13 @@
+.full-menu {
+    align-items: center;
+    background: rgba(1, 0, 26, .85);
+    bottom: 0;
+    justify-content: center;
+    display: flex;
+    left: 0;
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
