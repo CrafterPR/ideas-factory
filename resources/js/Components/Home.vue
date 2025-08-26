@@ -159,7 +159,7 @@
 
 <script setup>
     import { onMounted } from "vue"
-    import SwipperBanner from "@/components/SwipperBanner.vue"
+    import SwipperBanner from "@/Components/SwipperBanner.vue"
     import Swiper from "swiper"
     import {Autoplay, FreeMode, Pagination} from "swiper/modules"
 
