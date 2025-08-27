@@ -71,60 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="client-logos-section">
-            <div class="section-content">
-                <div class="swiper swiper-client-logos">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/British Council logo-02.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/NCA-black logo-03.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/giz logo-03.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/ICC Church black logo-03-03.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/Jubilee black logo-03.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/Kasneb black logo-03.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/KCAA black logo-03.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/KeNIA black logo-03.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/KFCB black logo-03.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/Stima Sacco black logo-03.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/The CommonWealth black logo-03.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/The Edge black logo-03.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/UKTech Hub Black logo-03.png') }}">
-                        </div>
-
-                    </div>
-                </div>
-                <div class="client-logos-cta custom-container">
-                    <div class="text-center text-md-end">
-                        <p>From Nairobi to the world, top brands trust us with their stories.  <a
-                                href="{{ route('what-we-do') }}" class="green-text">yours should be next</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('partials.client-logos')
         <div class="showreel-section">
             <div class="section-content">
                 <div class="heading-container custom-container">
@@ -169,10 +116,10 @@
                             <img loading="lazy" src="/img/twitter.png">
                         </a>-->
                         <a href="https://www.instagram.com/aidiasfactory" target="_blank">
-                            <img loading="lazy" src="{{ asset('img/ig-icon.svg') }}">
+                            <img loading="lazy" src="{{ asset('img/ig-icon.svg') }}" alt="">
                         </a>
                         <a href="https://www.facebook.com/aidiasfactory" target="_blank">
-                            <img loading="lazy" src="{{ asset('img/fb-icon.svg') }}">
+                            <img loading="lazy" src="{{ asset('img/fb-icon.svg') }}" alt="">
                         </a>
                         <!--<a href="https://vimeo.com/freshgroup" target="_blank">
                             <img loading="lazy" src="/img/vimeo.png">
@@ -188,24 +135,24 @@
                 </div>
                 <div class="award-images-container">
                     <div class="award-image-container">
-                        <img loading="lazy" src="{{ asset('img/award-logos/award2.png') }}">
+                        <img loading="lazy" src="{{ asset('img/award-logos/award2.png') }}" alt="">
                     </div>
                     <div class="award-image-container">
-                        <img loading="lazy" src="{{ asset('img/award-logos/award3.png') }}">
+                        <img loading="lazy" src="{{ asset('img/award-logos/award3.png') }}" alt="">
                     </div>
                     <div class="award-image-container">
-                        <img loading="lazy" src="{{ asset('img/award-logos/award4.png') }}">
+                        <img loading="lazy" src="{{ asset('img/award-logos/award4.png') }}" alt="">
                     </div>
                     <div class="award-image-container">
-                        <img loading="lazy" src="{{ asset('img/award-logos/award5.png') }}">
+                        <img loading="lazy" src="{{ asset('img/award-logos/award5.png') }}" alt="">
                     </div>
                     <div class="award-image-container">
-                        <img loading="lazy" src="{{ asset('img/award-logos/award6.png') }}">
+                        <img loading="lazy" src="{{ asset('img/award-logos/award6.png') }}" alt="">
                     </div>
                 </div>
                 <div class="award-images-container">
                     <div class="award-image-container">
-                        <img loading="lazy" src="{{ asset('img/award-logos/award1.png') }}">
+                        <img loading="lazy" src="{{ asset('img/award-logos/award1.png') }}" alt="">
                     </div>
 
                 </div>

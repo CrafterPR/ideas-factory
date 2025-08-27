@@ -290,64 +290,7 @@
                 </div>
             </div>
         </div>
-        <div class="client-logos-section">
-            <div class="section-content">
-                <div class="swiper swiper-client-logos">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/2a5ee61b5d4cce0d5d7272bd2a318411.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/5364f96b032a74ed67b26e3c2759dc8e.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/3e6531ab9fe28cf668a3067b2609e95c.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/samsung.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/coop.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/091de7fabadb05d4a356d3faef3458d4.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/5de3e3a6a5f2f6821766948dc608a34d.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/609c0fe53ac9400ae3e497d5a342e290.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/2de8aee70c6d2ceaccb922571d7c79b1.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/6d9d3d924f4201a319ccc0ad8107f6cc.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/5ebf0d9fd4477359d40110991e3c6b3e.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/23cd2e50688c282c61e4ae5d22f47372.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/f7194e55def44bf7a9504229adb355d2.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/58a34e6d1054e4935ae63225b77e4d25.png') }}">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="{{ asset('img/client-logos/c82c24d8e3990847ecbf8c04177c9beb.png') }}">
-                        </div>
-                    </div>
-                </div>
-                <div class="client-logos-cta custom-container">
-                    <div class="text-center text-md-end">
-                        <p>Some of the world's biggest brands trust us <br>to tell their stories, <span class="green-text">you should too</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('partials.client-logos')
         <div class="awards-section">
             <div class="section-content custom-container">
                 <div>

@@ -1,380 +1,185 @@
 <x-layout>
-<what-we-do inline-template>
-    <div class="what-we-do">
-        <!--<video autoplay muted loop playsinline class="background-video">
-            <source src="https://d130dmucovph5d.cloudfront.net/videos/work.mp4?v=111034" type="video/mp4">
-        </video>-->
-        <div class="page-header-slider-section">
-            <div class="section-content">
-                <div class="swiper swiper-header">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="#">
-                                <img loading="lazy" src="img/page-headers/Background_4.jpg">
-                            </a>
+    <what-weve-done inline-template :casestudies="[{&quot;id&quot;:51,&quot;name&quot;:&quot;Co-op Store Openings&quot;,&quot;title&quot;:&quot;Delivering new store launches with impact&quot;,&quot;slug&quot;:&quot;co-op-store-openings&quot;,&quot;intro_text&quot;:&quot;Team Co-op wasted no time igniting their momentum this year as they jumped straight into delivering the launch of five stores within just six weeks. The team\u2019s goal was to not only captivate over 10,000 customers, but fulfil 32 community requests for the Local Engagement team.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/d97e204f0074e50ed7d4a11ab8aa44b5.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;Captivating over 10,000 customers with 5 Co-op store launches, 6 weeks to do it.&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/175b1d829551283f0ecf72c075cf00a3.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/399f89c9b483e44d3cabc60ff1781d9d.jpg&quot;,&quot;created_at&quot;:&quot;2024-03-20T10:42:40.000000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-16T17:52:38.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:0,&quot;previewable&quot;:1,&quot;categories&quot;:[]},{&quot;id&quot;:50,&quot;name&quot;:&quot;Samsung&quot;,&quot;title&quot;:&quot;Galaxy AI Roadshow&quot;,&quot;slug&quot;:&quot;samsung-galaxy-roadshow&quot;,&quot;intro_text&quot;:&quot;With a new era in AI about to launch for Samsung, it was important their message and new innovative features landed with contact centre advisors \u2013 and the best way to do this? Through a hands-on roadshow across the UK and India. Working closely with Samsung\u2019s training team, we created a number of engaging hands-on experiences to build understanding around the Galaxy AI features being released on the Galaxy S24 Series.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/d69bc4d2314d63414f0aef745d1a10b5.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;We created a number of engaging hands-on experiences to effectively build understanding&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/01ef3f0836c0618ae0bf19d144676319.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/57fcbfcf8d240e0b9ab7d9d3ca3df942.jpg&quot;,&quot;created_at&quot;:&quot;2024-03-12T13:49:12.000000Z&quot;,&quot;updated_at&quot;:&quot;2024-04-04T13:55:07.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:0,&quot;previewable&quot;:1,&quot;categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Physical&quot;,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;pivot&quot;:{&quot;case_study_id&quot;:50,&quot;case_study_category_id&quot;:1}}]},{&quot;id&quot;:48,&quot;name&quot;:&quot;Ferrero&quot;,&quot;title&quot;:&quot;Company conference&quot;,&quot;slug&quot;:&quot;ferrero-conference&quot;,&quot;intro_text&quot;:&quot;For almost five years, fresh have partnered with Ferrero UK to deliver their annual company conference and unify colleagues, celebrate success, and inspire them with the exciting things happening across the business.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/d5f278309b6b42a0c23bfd33cdebb378.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;Ferrero colleagues joined us for an exciting two-days, kickstarted with an insightful and dynamic plenary.&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/b9c6d6f622ff4e09aadd66baa7a5c584.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/b9c6d6f622ff4e09aadd66baa7a5c584.jpg&quot;,&quot;created_at&quot;:&quot;2024-03-05T11:10:50.000000Z&quot;,&quot;updated_at&quot;:&quot;2024-04-04T13:55:15.000000Z&quot;,&quot;header_video_url&quot;:&quot;https:\/\/d130dmucovph5d.cloudfront.net\/videos\/Ferrero_Sting_Day_01_MSTR.mp4&quot;,&quot;enabled&quot;:1,&quot;order&quot;:0,&quot;previewable&quot;:1,&quot;categories&quot;:[]},{&quot;id&quot;:47,&quot;name&quot;:&quot;Vodafone Connected Education&quot;,&quot;title&quot;:&quot;Delivering a connected experience&quot;,&quot;slug&quot;:&quot;vodafone-connected-education&quot;,&quot;intro_text&quot;:&quot;Vodafone came to us with a vision of designing an event to champion the Connected Education programme, showcase its life-changing education initiatives, such as the Instant Network Schools (INS) and drive engagement from stakeholders, including the UK Gov, Vodafone trustees and senior leadership, Vodafone volunteers and partners.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/32979ff672df1f6e238acb7decd75847.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;Stakeholders were immersed in these stories in an impactful, sensory opening experience&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/235282f9c89fa61c677e1afa97242691.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/21494550a595d0d3f4ab5a7c12246e7f.jpg&quot;,&quot;created_at&quot;:&quot;2023-12-18T17:21:33.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-12-20T12:50:14.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:0,&quot;previewable&quot;:1,&quot;categories&quot;:[]},{&quot;id&quot;:46,&quot;name&quot;:&quot;Co-op Irresistible Pizza&quot;,&quot;title&quot;:&quot;All roads lead to pizza!&quot;,&quot;slug&quot;:&quot;co-op-irresistible-pizza&quot;,&quot;intro_text&quot;:&quot;We were tasked by our long-standing client, Co-op, to launch the new premium Co-op Irresistible pizza, crafting an \u2018Irresistible\u2019 experience that supported product sampling while creating buzz and excitement.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/06acf310fba9e258250d834f9c33ccf6.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;Cosy, authentic Italian aesthetic and ambiance&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/fee30e780bcc28b461c5673adfcd2cc7.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/25346b944a16637d419e0517e363daa7.jpg&quot;,&quot;created_at&quot;:&quot;2023-12-15T12:50:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-12-20T21:37:59.000000Z&quot;,&quot;header_video_url&quot;:&quot;https:\/\/d130dmucovph5d.cloudfront.net\/videos\/xs-2661_co-op_pizza_activation_social.mp4&quot;,&quot;enabled&quot;:1,&quot;order&quot;:0,&quot;previewable&quot;:1,&quot;categories&quot;:[]},{&quot;id&quot;:45,&quot;name&quot;:&quot;Currys Peak 2023&quot;,&quot;title&quot;:&quot;Raising the Amazing&quot;,&quot;slug&quot;:&quot;currys-peak-2023&quot;,&quot;intro_text&quot;:&quot;This year we had a blast \u2018Raising the Amazing&#039; at our 9th Currys Peak event, during our 10th year as their events partner.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/90239fad9d76629b1e34086ecbac6a91.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;It\u2019s been an incredible 10 years partnering with Currys, we can\u2019t wait to see what\u2019s next on the horizon!&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/163dcd6dfabc66231ebcae4e8316c687.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/11d8d04ce7136e574b1791245324cfd8.jpg&quot;,&quot;created_at&quot;:&quot;2023-12-12T15:03:32.000000Z&quot;,&quot;updated_at&quot;:&quot;2024-01-05T18:14:42.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:0,&quot;previewable&quot;:1,&quot;categories&quot;:[]},{&quot;id&quot;:44,&quot;name&quot;:&quot;Currys Mission:Possible&quot;,&quot;title&quot;:&quot;Empowering Currys Colleagues to step up to the mission of reducing damages&quot;,&quot;slug&quot;:&quot;currys-mission-possible&quot;,&quot;intro_text&quot;:&quot;Currys came to fresh with a mission to tackle product damage head-on. Working together with the Currys team, the \u2018Mission:Possible\u2019 creative campaign emerged.\r\n\r\nThis campaign aimed to raise awareness of product damage and product value, and, through a series of specific \u2018mission\u2019 tasks, employees owned the cause of the problems in their area of the product journey and worked together to fix them. So, how did we incorporate all of this into one campaign?&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/ce683be941bfa8388650166018de8ceb.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;The exciting creative helped to amplify the campaign reach across the business&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/2fb87347c024afa3981f7ef1dff02a95.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/1e6b559e757a68deb0e6f730158a3856.jpg&quot;,&quot;created_at&quot;:&quot;2023-12-07T14:20:15.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-12-20T12:53:38.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:0,&quot;previewable&quot;:1,&quot;categories&quot;:[]},{&quot;id&quot;:43,&quot;name&quot;:&quot;Samsung and Vodafone Contact Centre&quot;,&quot;title&quot;:&quot;Creating a Samsung-branded space with purpose&quot;,&quot;slug&quot;:&quot;samsung-and-vodafone&quot;,&quot;intro_text&quot;:&quot;We joined forces with Samsung and Vodafone to create a two-year installation of an unforgettable Samsung-branded space within the heartbeat of a Vodafone Contact Centre.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/155289d0ac1a3b35b0624d1440c875ec.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;Working wonders to create an experience that draws you in&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/a1d3da0e0f0d9b68aa024d569deadef6.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/62237a6a066ab052a954cc8c47c2ede5.jpg&quot;,&quot;created_at&quot;:&quot;2023-12-05T09:58:37.000000Z&quot;,&quot;updated_at&quot;:&quot;2024-01-02T09:09:48.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:0,&quot;previewable&quot;:1,&quot;categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Physical&quot;,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;pivot&quot;:{&quot;case_study_id&quot;:43,&quot;case_study_category_id&quot;:1}}]},{&quot;id&quot;:41,&quot;name&quot;:&quot;Co-op summer activations&quot;,&quot;title&quot;:&quot;Creating a summer to remember&quot;,&quot;slug&quot;:&quot;co-op-summer&quot;,&quot;intro_text&quot;:&quot;With an exciting summer ahead, we teamed up with our longest standing partners, Co-op, to make 2023 one to remember. Below are just some of the activations where we sprinkled some Co-op magic....&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/ab02d01e40c593910a572c604fb9a034.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;...we achieved 7,404 engagements, distributed 4,260 samples and signed up 216 new members.&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/1ff7c72d99cbd90b541cf6947dcda5a6.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/6946b0ebea73a77413c4fb3f12e9a7ea.jpg&quot;,&quot;created_at&quot;:&quot;2023-08-28T21:42:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-09-14T11:04:50.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:0,&quot;previewable&quot;:1,&quot;categories&quot;:[]},{&quot;id&quot;:40,&quot;name&quot;:&quot;Samsung TV Plus&quot;,&quot;title&quot;:&quot;A tasteful launch to celebrate Samsung TV Plus\u2019 new channel&quot;,&quot;slug&quot;:&quot;samsung-tv-plus&quot;,&quot;intro_text&quot;:&quot;Launching a flavoursome new channel, Samsung came to fresh with the vision of creating an experiential activation that celebrates The Jamie Oliver Channel on Samsung TV Plus.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/3997f69bb413c9c91362fef4ee2ec4e2.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;To make the event really stand out, we deployed different competition mechanics to immerse people in the experience.&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/6a62fcf93acb44a2b9f5541521907b1f.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/7a4f46db8f07a56c6ea291358d12608c.jpg&quot;,&quot;created_at&quot;:&quot;2023-08-28T21:37:37.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-09-14T12:31:36.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:0,&quot;previewable&quot;:1,&quot;categories&quot;:[]},{&quot;id&quot;:37,&quot;name&quot;:&quot;Hyundai \u2013 Retailer Conference 2023&quot;,&quot;title&quot;:&quot;Immersing colleagues in the world of Hyundai for another year&quot;,&quot;slug&quot;:&quot;hyundai-retailer-conference-2023&quot;,&quot;intro_text&quot;:&quot;As Hyundai\u2019s trusted events partner since 2015, we\u2019ve developed and delivered their annual Retailer Conference in many shapes and forms \u2013 including both live and virtual formats.\r\n\r\nAnd 2023 marked another exciting chapter in our journey\u2026&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/96e3a055c2f34c0a159d0fd25fba0978.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;Our opening plenary was scripted to set the tone for the rest of the day: to excite, engage and intrigue retailers&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/648768830e1fb83a80cb140779349ad9.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/c44e05011d4772586ed4581a65097559.jpg&quot;,&quot;created_at&quot;:&quot;2023-08-28T21:29:02.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-09-14T11:13:43.000000Z&quot;,&quot;header_video_url&quot;:&quot;https:\/\/d130dmucovph5d.cloudfront.net\/videos\/xs-2568_hyundai_social_wip_3_1080p_.mp4&quot;,&quot;enabled&quot;:1,&quot;order&quot;:0,&quot;previewable&quot;:1,&quot;categories&quot;:[]},{&quot;id&quot;:36,&quot;name&quot;:&quot;JLG APEX&quot;,&quot;title&quot;:&quot;Delivering a standout event on an international stage&quot;,&quot;slug&quot;:&quot;jlg-apex&quot;,&quot;intro_text&quot;:&quot;JLG are one of the world\u2019s leading designers and manufacturers of powered access plant equipment. Over the past two years, our role as JLG\u2019s global partner has involved delivering distinctive events on both a national and an international scale, positioning JLG as forward-thinking innovators in their industry.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/604b369f0e632a0bdadc7fe9c25c9965.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;This event gives suppliers a global stage to showcase their latest products and technology.&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/fc391899f0ac14328e5b2ba11474d8c1.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/c04d80eed9f0cda88009f60e9b505246.jpg&quot;,&quot;created_at&quot;:&quot;2023-08-14T10:12:10.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-09-14T11:24:57.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:0,&quot;previewable&quot;:1,&quot;categories&quot;:[]},{&quot;id&quot;:26,&quot;name&quot;:&quot;JLG \u2013 A New Perspective&quot;,&quot;title&quot;:&quot;Elevating engagement through a hybrid approach&quot;,&quot;slug&quot;:&quot;jlg-a-new-perspective&quot;,&quot;intro_text&quot;:&quot;As one of the world\u2019s leading designers and manufacturers of powered access plant equipment, JLG are used to showing their customers and suppliers a different way of working. When they wanted to take a more sustainable, innovative approach to showcasing their latest equipment and offerings, we developed the solution together.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/f34c8f190c153f2e1f9a1cf7acc08bb5.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;Replacing their presence at a prominent construction trade show, our hybrid event created the opportunity to connect with customers in a more sustainable and innovative way.&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/e7c4a7f471f5d9559feee3f9b2ba289a.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/a3fe3ddedd47999d60ddf443ebe8c986.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-04T22:34:40.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-27T15:55:51.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:2,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:22,&quot;name&quot;:&quot;Currys Peak \u2013 2020\u20132022&quot;,&quot;title&quot;:&quot;A journey through virtual worlds and back to face-to-face encounters&quot;,&quot;slug&quot;:&quot;currys-peak-20202022&quot;,&quot;intro_text&quot;:&quot;Up until 2020, Currys have held their annual Peak conference as a live event at a large UK conference centre for up to 1600 colleagues, bringing to life key business strategies and providing opportunities for them to connect with suppliers and new\u202fproducts via the supplier expo.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/e20a79f404e05977dfd79b34ac0e5520.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;A bespoke, virtual 3D world with a plenary theatre, immersive supplier expo and self-exploratory zones for colleagues to connect&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/8fcf2908dd4355a3dac76c156f7d888f.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/f469e9be2c863cc1bd6bf0b135396b77.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-04T00:09:37.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-27T01:35:13.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:4,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:30,&quot;name&quot;:&quot;Samsung One Awards&quot;,&quot;title&quot;:&quot;Bringing Samsung&#039;s B2B partners together to celebrate in style&quot;,&quot;slug&quot;:&quot;samsung-one-awards&quot;,&quot;intro_text&quot;:&quot;Samsung needed a memorable way to recognise and reward the hard work and dedication of their B2B partners across the country.&quot;,&quot;intro_text_bold&quot;:&quot;So how could we bring everyone together to celebrate in style?&quot;,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/d5d9be2aaf90cc2984cde20a2be02ed7.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;An evening to put over 100 partners and their achievements in the spotlight&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/05020989b98e9005d054c60389cd815c.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/084bf4fbf2868ec42bd580127f66a6bd.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-04T23:09:36.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-27T15:59:04.000000Z&quot;,&quot;header_video_url&quot;:&quot;https:\/\/d130dmucovph5d.cloudfront.net\/videos\/samsung_one_awards_mute.mp4&quot;,&quot;enabled&quot;:1,&quot;order&quot;:5,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:24,&quot;name&quot;:&quot;Hyundai \u2013 Retailer Conference&quot;,&quot;title&quot;:&quot;Reconnecting colleagues to reveal a new dawn of Hyundai&quot;,&quot;slug&quot;:&quot;hyundai-retailer-conference&quot;,&quot;intro_text&quot;:&quot;With hundreds of dealerships across the country, Hyundai were keen to bring together their national network and HMUK colleagues face-to-face for the first time in over two years to announce exciting updates, share ideas and engage with other dealerships and employees. Having worked with them to produce their ground-breaking Virtual Experience Centre (VEC) and Fully Charged exhibition, our partnership made total sense to support them on this next venture.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/ac0d50fcc37a234893e008d58c585d4a.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;Nearly 700 delegates attended the conference and participated in plenary sessions, think-tank workshops, and a special reveal of the new IONIQ 6&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/4a0ca63764fb28133271117e41023c3b.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/5a87b0746c866523e7bd1da28801b3ae.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-04T22:13:31.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-27T15:59:04.000000Z&quot;,&quot;header_video_url&quot;:&quot;https:\/\/d130dmucovph5d.cloudfront.net\/videos\/Hyundai_Dealer_Conference_mute.mp4&quot;,&quot;enabled&quot;:1,&quot;order&quot;:6,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:18,&quot;name&quot;:&quot;Bentley GRC&quot;,&quot;title&quot;:&quot;Bringing the Global Retailer Conference home to Crewe&quot;,&quot;slug&quot;:&quot;bentley-grc&quot;,&quot;intro_text&quot;:&quot;Bentley came to us with a vision of hosting a luxury conference at their world-famous Crewe campus to give their global retailers a meaningful brand experience.  \r\n\r\nThe only problem? The logistically difficult site didn\u2019t have the facilities to accommodate a large-scale conference.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/f2e6779947be6036709c36125cd47627.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;Wrap around screens and 3D audio gave every delegate the best seat in the house&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/7f14e25720878569e2c6716225a53a71.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/35292fa225a325ad40a707829c3eda42.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-03T18:06:53.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-27T01:33:09.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:7,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:23,&quot;name&quot;:&quot;Hyundai - Fully Charged&quot;,&quot;title&quot;:&quot;Electrifying engagement at the world\u2019s number one electric vehicle and home energy show&quot;,&quot;slug&quot;:&quot;hyundai-fully-charged&quot;,&quot;intro_text&quot;:&quot;As a leading manufacturer of electric vehicles, each year Hyundai take part in Fully Charged Live, the world\u2019s number one electric vehicle and home energy show. For the 2022 chapter, we partnered with Hyundai to create a stand that cut through the noise with memorable, interactive experiences to showcase their electrification journey and the power of going green.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/650d35da940b1f6ecbba3801fa162b67.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;How could we reduce costs whilst delivering on sustainability and sales targets, without cutting the appeal of the stand?&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/0b142bf6e5dbc1bda450cb52c34ec31c.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/f5fc8d0198c934c5de7b77b45efde625.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-04T22:06:49.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-27T01:33:28.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:8,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:21,&quot;name&quot;:&quot;Cardano \u2013 Consensus&quot;,&quot;title&quot;:&quot;The cryptocurrency making a stand for the right reasons&quot;,&quot;slug&quot;:&quot;cardano-consensus&quot;,&quot;intro_text&quot;:&quot;In 2022 17,000 people descended on Texas to attend the world\u2019s biggest and longest-running crypto festival, Consensus. As one of the biggest players in the industry, Cardano wanted a strong presence to raise awareness of their cryptocurrency and blockchain technology.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/50fbf42ce5bb3901c4ae8103140c73b6.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;We went above and beyond to make it as carbon neutral as possible&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/f606ff41256238f7ae4915f9e3cf0ffb.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/f606ff41256238f7ae4915f9e3cf0ffb.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-03T23:58:40.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-27T01:33:09.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:9,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:27,&quot;name&quot;:&quot;One Young World Summit&quot;,&quot;title&quot;:&quot;Bringing young leaders and famous faces together in our home city&quot;,&quot;slug&quot;:&quot;one-young-world-summit&quot;,&quot;intro_text&quot;:&quot;In 2022 after a competitive pitch process, fresh were chosen to partner with One Young World to deliver their annual One Young World Summit \u2013 bringing together the brightest young leaders from around the world to discuss and confront the biggest humanitarian issues we face today.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/f86d8b57a94c37347c72df0a025b1f09.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;Setting a new standard for future exhibition spaces&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/ed7da12cfb7a738e0ee72ec83d037f7b.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/f194c9d3bb9dae6834b484e236cfe064.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-04T22:48:00.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-27T01:32:44.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:10,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:29,&quot;name&quot;:&quot;Samsung Health&quot;,&quot;title&quot;:&quot;Samsung Health &amp; EvolveYou event at Samsung King&#039;s Cross&quot;,&quot;slug&quot;:&quot;samsung-health&quot;,&quot;intro_text&quot;:&quot;Samsung wanted to promote their fitness and wellbeing app, Samsung Health, as well as a new partnership with EvolveYou, by holding their first event in Europe. So, what better way to get people to experience the benefits in real life than through a workout at the Samsung King&#039;s Cross experience store.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/3eb9cb7039825a3825151cb0420bb46e.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;Together, we transformed the idea of a workout into an immersive brand experience&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/a15ea20c3c19a5e245956783610e8bbf.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/4a8b9e5c8615a2ca207b9ee7d3c00168.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-04T23:04:37.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-27T01:33:28.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:11,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:25,&quot;name&quot;:&quot;Hyundai \u2013 Virtual Experience Centre&quot;,&quot;title&quot;:&quot;How to get customers into the showroom, when showrooms aren&#039;t open&quot;,&quot;slug&quot;:&quot;hyundai-virtual-experience-centre&quot;,&quot;intro_text&quot;:&quot;When the Covid-19 lockdown closed the doors of every dealership in the UK, Hyundai faced an urgent need to keep the conversation going with customers, dealers and prospects. The solution was to move the entire experience of buying a car online.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/fad79dffcbdc50dc7161b57e8ac17ccf.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;\u2026every part of this virtual world has been developed with growth in mind.&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/8b450550fd170648f732baa6849da246.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/ce436ac1f17df2bf43cbf559814aea73.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-04T22:28:40.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-27T01:32:44.000000Z&quot;,&quot;header_video_url&quot;:&quot;https:\/\/d130dmucovph5d.cloudfront.net\/videos\/Hyundai_VEC.mp4&quot;,&quot;enabled&quot;:1,&quot;order&quot;:12,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:19,&quot;name&quot;:&quot;Bentley \u2013 Pyms Lane&quot;,&quot;title&quot;:&quot;A festival of fun at the factory&quot;,&quot;slug&quot;:&quot;bentley-pyms-lane&quot;,&quot;intro_text&quot;:&quot;Lots changed at Bentley during the pandemic \u2013 products, culture, vision, even bricks and mortar \u2013 and they wanted to celebrate this with a campus-wide, family-friendly event that rewarded colleagues whilst re-engaging them with the brand.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/184b4f8685fc944b8c4b687b9f218152.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;We pulled out all the stops to provide exclusive, money-can\u2019t-buy experiences, right where it all began&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/625e0c6049808eb2feb2b89a1cf1aff8.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/af3d77156f4979aa1661bf61fb9287dc.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-03T18:23:18.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-21T14:18:48.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:13,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:32,&quot;name&quot;:&quot;Samsung VSPS&quot;,&quot;title&quot;:&quot;An innovative approach to training when lockdown prevented face-to-face sessions&quot;,&quot;slug&quot;:&quot;samsung-vsps&quot;,&quot;intro_text&quot;:&quot;The 2020 lockdown happened at a crucial time for Samsung smartphone launches. Having historically delivered training on the latest devices face-to-face in contact centres by their team of Samsung Product Specialists, how could they continue to upskill advisors anywhere in the world, ensuring they were inspired, engaged, and ultimately recommend the latest devices to their customers?&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/ee5701960346915ae4597b6f3835732f.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;An online platform that provided a virtual destination for advisors to watch live broadcast product training&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/66b841041c2482af2ca9c5a91be00898.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/894a47c3f74a4b410f6fbe752edb6c70.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-05T13:28:37.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-12-20T11:46:13.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:14,&quot;previewable&quot;:1,&quot;categories&quot;:[]},{&quot;id&quot;:33,&quot;name&quot;:&quot;Sunbelt \u2013\u00a0Sunfest&quot;,&quot;title&quot;:&quot;The sun was always shining at this virtual festival&quot;,&quot;slug&quot;:&quot;sunbelt-sunfest&quot;,&quot;intro_text&quot;:&quot;Sunbelt Rentals UK is the UK division of the global leaders in plant supply, tools and specialist equipment hire for the construction, events and infrastructure markets. With the absence of face-to-face events, trade shows and exhibitions which are a big part of Sunbelt UK\u2019s communications and marketing strategy, they needed a way to continue interacting with suppliers, partners, customers and clients.\r\n\r\nAnd so the idea for Sunfest was born....&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/f427a660efbfd2c99438964e7e708a54.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;The festival featured over 45 of Sunbelt\u2019s suppliers and partners in virtual exhibition stands and presentations.&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/f74b0007b5214f7664363dd44ff59e2a.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/f74b0007b5214f7664363dd44ff59e2a.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-05T13:35:02.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-24T00:50:28.000000Z&quot;,&quot;header_video_url&quot;:&quot;https:\/\/d130dmucovph5d.cloudfront.net\/videos\/Sunbelt_Sunfest_Highlights_V4_1_1.mp4&quot;,&quot;enabled&quot;:1,&quot;order&quot;:15,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:31,&quot;name&quot;:&quot;Samsung Roadshow&quot;,&quot;title&quot;:&quot;The start of an amazing relationship between fresh and Samsung&quot;,&quot;slug&quot;:&quot;samsung-roadshow&quot;,&quot;intro_text&quot;:&quot;Samsung and fresh began our journey working together at start of 2020, delivering quarterly Contact Centre Roadshows across the UK and overseas, launching products to advisors with training they could convert into sales.&quot;,&quot;intro_text_bold&quot;:&quot;But what can you do when the roadshow can\u2019t go on the road?&quot;,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/21390657e3902f8753f016a0317451fb.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;Together we devised Live Broadcast Quarterly Roadshows to be delivered via a custom-built microsite.&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/9901f7accfee5d912b13b087819392ae.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/2f25043afabce00b0d03a19397d5b0f0.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-05T13:21:10.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-12-20T11:45:50.000000Z&quot;,&quot;header_video_url&quot;:&quot;https:\/\/d130dmucovph5d.cloudfront.net\/videos\/Samsung_Cube_30s_Highlights_V1.mp4&quot;,&quot;enabled&quot;:1,&quot;order&quot;:16,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:20,&quot;name&quot;:&quot;Big Bang Fair&quot;,&quot;title&quot;:&quot;Showcasing STEM since 2014&quot;,&quot;slug&quot;:&quot;big-bang-fair&quot;,&quot;intro_text&quot;:&quot;The Big Bang Fair is the UK\u2019s biggest STEM careers event and fresh is proud to have been involved in delivering its success since 2014.\r\n\r\nHaving a strong collaborative relationship with Big Bang has been key to making sure the event continues to inspire and motivate students to find their futures in science, technology, engineering and maths-based fields.&quot;,&quot;intro_text_bold&quot;:null,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/5b068630aaa8e8ed6a113822f4f0e2b5.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;The Big Bang Fair is a huge collaborative project that brings together the whole of fresh&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/d63ca6f34f76a7857c96351e177b59eb.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/1cfbefb8d4b972693db695fe82863afa.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-03T18:43:24.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-21T14:18:48.000000Z&quot;,&quot;header_video_url&quot;:null,&quot;enabled&quot;:1,&quot;order&quot;:17,&quot;previewable&quot;:0,&quot;categories&quot;:[]},{&quot;id&quot;:28,&quot;name&quot;:&quot;The Radisson Hotel Group&quot;,&quot;title&quot;:&quot;&#039;Experience Amazing\u2019 in these multi-sensory creative campaigns&quot;,&quot;slug&quot;:&quot;the-radisson-hotel-group&quot;,&quot;intro_text&quot;:&quot;Radisson wanted to inspire meeting and events professionals with their new meeting offerings, but in an incredibly competitive sector with all major hotel brands fighting for this audiences\u2019 limited time...&quot;,&quot;intro_text_bold&quot;:&quot;How could we immerse them in the meeting spaces to ensure Radisson stays front of mind when booking for their clients?&quot;,&quot;intro_image_url&quot;:&quot;\/img\/case-studies\/intros\/9e783336d012c022ad09bd556e7b0451.jpg&quot;,&quot;intro_image_caption&quot;:null,&quot;intro_quote&quot;:&quot;We headed out on the road visiting meetings and events professionals so they could experience this offering for themselves&quot;,&quot;intro_quote_from&quot;:null,&quot;outro_heading&quot;:null,&quot;outro_text&quot;:null,&quot;outro_text_bold&quot;:null,&quot;thumbnail_url&quot;:&quot;\/img\/case-studies\/thumbs\/455ffe09a72cdfb2edbe6a043c463af2.jpg&quot;,&quot;banner_url&quot;:&quot;\/img\/case-studies\/banners\/4bc95764a7c16f01f5396e2ebabb2596.jpg&quot;,&quot;created_at&quot;:&quot;2023-02-04T22:59:43.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-02-21T14:18:48.000000Z&quot;,&quot;header_video_url&quot;:&quot;https:\/\/d130dmucovph5d.cloudfront.net\/videos\/Collection_launch_mute.mp4&quot;,&quot;enabled&quot;:1,&quot;order&quot;:18,&quot;previewable&quot;:0,&quot;categories&quot;:[]}]" :categories="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Physical&quot;,&quot;created_at&quot;:null,&quot;updated_at&quot;:null},{&quot;id&quot;:2,&quot;name&quot;:&quot;Virtual&quot;,&quot;created_at&quot;:null,&quot;updated_at&quot;:null},{&quot;id&quot;:3,&quot;name&quot;:&quot;Hybrid&quot;,&quot;created_at&quot;:null,&quot;updated_at&quot;:null},{&quot;id&quot;:4,&quot;name&quot;:&quot;Film&quot;,&quot;created_at&quot;:null,&quot;updated_at&quot;:null},{&quot;id&quot;:5,&quot;name&quot;:&quot;Content&quot;,&quot;created_at&quot;:null,&quot;updated_at&quot;:null}]">
+        <div class="what-weve-done">
+            <!--<video autoplay muted loop playsinline class="background-video">
+                <source src="https://d130dmucovph5d.cloudfront.net/videos/work.mp4?v=947165" type="video/mp4">
+            </video>-->
+            <div class="page-header-slider-section">
+                <div class="section-content">
+                    <div class="swiper swiper-header">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img loading="lazy" src="img/page-headers/Background_7.jpg">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img loading="lazy" src="img/page-headers/Background_8.jpg">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img loading="lazy" src="img/page-headers/Background_9.jpg">
+                                </a>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="#">
-                                <img loading="lazy" src="img/page-headers/Background_5.jpg">
-                            </a>
+                        <div class="custom-container swiper-pagination-container">
+                            <div class="swiper-pagination swiper-pagination-custom"></div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="#">
-                                <img loading="lazy" src="img/page-headers/Background_6.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="custom-container swiper-pagination-container">
-                        <div class="swiper-pagination swiper-pagination-custom"></div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="min-vh-100">
-            <div class="what-we-do-section">
+            <div class="what-weve-done-section">
                 <div class="custom-container section-content">
-                    <div class="row g-0">
+                    <div class="row">
                         <div class="col-12">
-                            <h2>What we do</h2>
-                            <p>For us at fresh, being a global brand experience agency means <br>executing brilliantly across our core service offerings.</p>
+                            <h2>What we've done</h2>
+                            <p>Check out our latest and greatest award-winning projects <br>from across our core service offerings.</p>
                         </div>
+                        <!--<div class="col-12 categories-container">
+                        <div class="row">
+                            <div v-for="category in categories" class="col-lg-2 col-md-4 col-sm-6 col-12 filter-button-container">
+                                <a href="javascript:;" @click="selectCategory(category.id)" :class="currentCategory == category.id ? 'selected' : ''">{{ category.name }}</a>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6 col-12 filter-button-container">
+                                <a href="javascript:;" @click="selectCategory(null)">View All</a>
+                            </div>
+                        </div>
+                    </div>-->
                     </div>
                 </div>
             </div>
-            <div class="collapsible-section">
+            <div class="our-work-section" id="our-work">
                 <div class="custom-container section-content">
-                    <div class="collapse-container accordion-group">
-                        <div class="collapse-heading-container">
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6">
-                                    <a data-bs-toggle="collapse" href="#collapseBrandActivations" role="button" aria-expanded="false" aria-controls="collapseBrandActivations" class="collapsed">
-                                        <h2>Brand activations</h2>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="collapse collapse-content-container brand-activations" id="collapseBrandActivations" data-parent="collapsible-section">
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-1 text-content">
-                                    <h3>Campaigns</h3>
-                                    <p>The most memorable campaigns are the ones that make you feel something. We get to the kernel of the human story our clients are trying to tell and then identify the most impactful channel for their audience to hear it.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Campaigns.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-2 text-content">
-                                    <h3>Experiential marketing</h3>
-                                    <p>We've been bringing brands to life through unforgettable experiences since 2004, immersing our clients' target audience in their products and services. We design experiences that increase brand exposure, build meaningful new connections, and deliver tangible results.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Experiential_marketing.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-1 text-content">
-                                    <h3>Digital marketing</h3>
-                                    <p>Digital marketing is more than a few carefully worded posts on social media. Our in-house teams use an omnichannel approach to optimise brand reach and engagement in the most effective places, in front of the right people, in amazing ways.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Digital_marketing.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-2 text-content">
-                                    <h3>Branded content</h3>
-                                    <p>We craft stories that take people on a journey, conveying core brand values by showing, not telling. The result? Content that makes audiences invest emotionally.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Branded_content.jpg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="collapse-container">
-                        <div class="collapse-heading-container">
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6">
-                                    <a data-bs-toggle="collapse" href="#collapseEvents" role="button" aria-expanded="false" aria-controls="collapseEvents" class="collapsed">
-                                        <h2>Events</h2>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="collapse collapse-content-container events" id="collapseEvents">
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-1 text-content">
-                                    <h3>Corporate events</h3>
-                                    <p>We've vowed to only create compelling corporate events with a uniquely fresh twist – brimming with creativity, first-class production values and engaging content to reignite business goals and brand love.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Corporate_events.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-2 text-content">
-                                    <h3>Public events</h3>
-                                    <p>There's nothing we love more than helping our client's shout from the rooftops – or anywhere public for that matter. Whether it's exhibiting at an open event or transforming public spaces into immersive other-worlds, we use a creative-first approach to push the boundaries and make sure they stand out from the crowd.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Public_events.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-1 text-content">
-                                    <h3>Outdoor events</h3>
-                                    <p>There's a lot to consider when you take an empty outdoor environment and transform it into a fully functioning event space... luckily our teams have the know-how and the experience to make it happen. Whatever the weather, we’ve got you covered.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Outdoor_events.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-2 text-content">
-                                    <h3>Experiential events</h3>
-                                    <p>We're big fans of showing rather than telling, which is why we're the trusted experiential events partner of some of the biggest brands in the world. Our focus is always on creating meaningful connections and an everlasting, positive impression.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Experiential_events.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-1 text-content">
-                                    <h3>Tradeshows &amp; Exhibitions</h3>
-                                    <p>In a sea of competitors, it’s all about standing out from the crowd. Using a combination of intelligent creative, technical wizardry, and an unshakeable project delivery team, we bespoke design and build immersive exhibitions that educate, engage, and inspire.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Tradeshows_and_Exhibitions.jpg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="collapse-container">
-                        <div class="collapse-heading-container">
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6">
-                                    <a data-parent="collapsible-section" data-bs-toggle="collapse" href="#collapseCreativeCommunication" role="button" aria-expanded="false" aria-controls="collapseCreativeCommunication" class="collapsed">
-                                        <h2>Creative communication</h2>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="collapse collapse-content-container creative-communication" id="collapseCreativeCommunication">
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-1 text-content">
-                                    <h3>Brand strategy</h3>
-                                    <p>Whether we're working with new or long-standing partners, we're not afraid to challenge the brief to define strategic goals, set measurements and design activations that deliver results.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Brand_strategy.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-2 text-content">
-                                    <h3>Brand &amp; employee engagement</h3>
-                                    <p>Not sure how to go about rallying the troops? No problem – together we can formulate creative engagement campaigns that showcase your values in action, boost morale and stimulate brand conversations.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Brand_employee_engagement.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-1 text-content">
-                                    <h3>Comms strategy & planning</h3>
-                                    <p>In a time when inbox records are at an all-time high, 'purposeful communication' is the name of our game. Together, we can define clear and consistent goals for not just 'what' to say, but the who, where, when, why, and how, to have the biggest impact on your audience and build a complete picture of your brand.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Comms_strategy_planning.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-2 text-content">
-                                    <h3>Content creation</h3>
-                                    <p>The age-old phrase 'content is king' is more relevant than ever. Our multi-disciplined in-house teams will work closely with you to create engaging content for any channel, across any media, as well as pre, during and post-event that keeps the conversation flowing and the momentum going.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Content_creation.jpg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="collapse-container">
-                        <div class="collapse-heading-container">
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6">
-                                    <a data-parent="collapsible-section" data-bs-toggle="collapse" href="#collapseIntegratedMarketing" role="button" aria-expanded="false" aria-controls="collapseIntegratedMarketing" class="collapsed">
-                                        <h2>Integrated marketing</h2>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="collapse collapse-content-container integrated-marketing" id="collapseIntegratedMarketing">
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-1 text-content">
-                                    <h3>Consumer Campaign strategy</h3>
-                                    <p>Brilliant ideas deserve to be shared. Building consumer campaign strategies that bring clients key messages to life across carefully planned touchpoints is a core service, approached with a media neutral philosophy. All developed to achieve objectives and deliver maximum results that make the best use of time and budget, from initial planning through to evaluation.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Consumer_campaign_strategy.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-2 text-content">
-                                    <h3>Brand building</h3>
-                                    <p>Understanding the value and importance of brand is critical in every organisation. And we can help with the full process from developing new products and establishing the brand they will become; to helping clients shape, grow or evolve their existing branded properties to inspire new or existing consumers.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Brand_building.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-1 text-content">
-                                    <h3>Integrated communications</h3>
-                                    <p>The speed of communication makes brand consistency more important than ever. Making sure the right message is delivered the right way, at the right time and in the right format improves the chance of messages landing and gaining the desired outcome. After all, when you only have a fraction of second to make a statement, a 500 word blog isn’t going to cut the mustard. We help define and refine your messaging and can advise on the best strategic positioning to achieve success.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Integrated_communications.jpg">
-                                </div>
-                            </div>
-                            <div class="row g-0">
-                                <div class="col-12 col-lg-6 order-1 order-lg-2 text-content">
-                                    <h3>Trade activation</h3>
-                                    <p>It sounds ridiculous when you say it, but 100% of sales happen at the point (and place) of purchase. Which means that it is the battleground that most brands and services must win if they are going to increase sales or market share. We’re seasoned campaigners in the battle of visibility and attention – building brand love whether it’s pure shopper marketing campaigns, on pack promotions, instore recruitments or new product launches. We can take the fight to the streets, shelves, sofas and bars – wherever the consumer happens to be.</p>
-                                </div>
-                                <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="img/what-we-do/Trade_activation.jpg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="below-collapsible-section">
-                <div class="custom-container section-content">
-                    <div class="row g-0">
+                    <div class="row">
                         <div class="col-12">
-                            <p>Click above to find out more about each of our core service offerings,
-                                <br>or head <a href="what-weve-done.html">this way</a> to see our latest brand experiences.</p>
+                            <div class="case-studies-container" v-for="(caseStudyGroup, caseStudyGroupKey) in shownCaseStudyGroups">
+                                <template v-for="casestudy in caseStudyGroup">
+                                    <div class="case-study-container">
+                                        <a :href="'/what-weve-done/' + casestudy.slug">
+                                            <img loading="lazy" :src="casestudy.thumbnail_url">
+                                            <div class="hover-content-container">
+                                                <div class="hover-content">
+                                                    <img loading="lazy" class="case-study-arrow" src="img/green-arrow-black-background-bottom-right.png">
+                                                    <p class="case-study-name">{{ casestudy.name }}</p>
+                                                    <p class="case-study-description">{{ casestudy.title }}</p>
+                                                    <p class="case-study-bottom-link">Read More</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="outro-header-section">
+                <div class="section-content custom-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>If you like what you see...</h3>
+                            <img loading="lazy" src="img/footer-arrow.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="outro-text-section">
+                <div class="section-content custom-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Our door's always open and we'd love to chat to you about bringing your next big idea to life</p>
+                            <p><b><a href="contact.html">Click here and get in touch</a></b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="client-logos-section">
+                <div class="section-content">
+                    <div class="swiper swiper-client-logos">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/2a5ee61b5d4cce0d5d7272bd2a318411.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/5364f96b032a74ed67b26e3c2759dc8e.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/3e6531ab9fe28cf668a3067b2609e95c.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/samsung.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/coop.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/091de7fabadb05d4a356d3faef3458d4.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/5de3e3a6a5f2f6821766948dc608a34d.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/609c0fe53ac9400ae3e497d5a342e290.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/2de8aee70c6d2ceaccb922571d7c79b1.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/6d9d3d924f4201a319ccc0ad8107f6cc.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/5ebf0d9fd4477359d40110991e3c6b3e.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/23cd2e50688c282c61e4ae5d22f47372.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/f7194e55def44bf7a9504229adb355d2.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/58a34e6d1054e4935ae63225b77e4d25.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="img/client-logos/c82c24d8e3990847ecbf8c04177c9beb.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client-logos-cta custom-container">
+                        <div class="text-center text-md-end">
+                            <p>Some of the world's biggest brands trust us <br>to tell their stories, <span class="green-text">you should too</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="awards-section">
+                <div class="section-content custom-container">
+                    <div>
+                        <h3>Did we tell you we're award winning?</h3>
+                    </div>
+                    <div class="award-images-container">
+                        <div class="award-image-container">
+                            <img loading="lazy" src="img/award-logos/award1.png">
+                        </div>
+                        <div class="award-image-container">
+                            <img loading="lazy" src="img/award-logos/award2.png">
+                        </div>
+                        <div class="award-image-container">
+                            <img loading="lazy" src="img/award-logos/award3.png">
+                        </div>
+                        <div class="award-image-container">
+                            <img loading="lazy" src="img/award-logos/award4.png">
+                        </div>
+                        <div class="award-image-container">
+                            <img loading="lazy" src="img/award-logos/award5.png">
+                        </div>
+                        <div class="award-image-container">
+                            <img loading="lazy" src="img/award-logos/award6.png">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="outro-header-section">
-            <div class="section-content custom-container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3>If you like what you see...</h3>
-                        <img loading="lazy" src="img/footer-arrow.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="outro-text-section">
-            <div class="section-content custom-container">
-                <div class="row">
-                    <div class="col-12">
-                        <p>Our door's always open and we'd love to chat to you about bringing your next big idea to life</p>
-                        <p><b><a href="contact.html">Click here and get in touch</a></b></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="client-logos-section">
-            <div class="section-content">
-                <div class="swiper swiper-client-logos">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/2a5ee61b5d4cce0d5d7272bd2a318411.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/5364f96b032a74ed67b26e3c2759dc8e.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/3e6531ab9fe28cf668a3067b2609e95c.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/samsung.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/coop.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/091de7fabadb05d4a356d3faef3458d4.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/5de3e3a6a5f2f6821766948dc608a34d.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/609c0fe53ac9400ae3e497d5a342e290.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/2de8aee70c6d2ceaccb922571d7c79b1.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/6d9d3d924f4201a319ccc0ad8107f6cc.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/5ebf0d9fd4477359d40110991e3c6b3e.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/23cd2e50688c282c61e4ae5d22f47372.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/f7194e55def44bf7a9504229adb355d2.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/58a34e6d1054e4935ae63225b77e4d25.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img loading="lazy" src="img/client-logos/c82c24d8e3990847ecbf8c04177c9beb.png">
-                        </div>
-                    </div>
-                </div>
-                <div class="client-logos-cta custom-container">
-                    <div class="text-center text-md-end">
-                        <p>Some of the world's biggest brands trust us <br>to tell their stories, <span class="green-text">you should too</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="awards-section">
-            <div class="section-content custom-container">
-                <div>
-                    <h3>Did we tell you we're award winning?</h3>
-                </div>
-                <div class="award-images-container">
-                    <div class="award-image-container">
-                        <img loading="lazy" src="img/award-logos/award1.png">
-                    </div>
-                    <div class="award-image-container">
-                        <img loading="lazy" src="img/award-logos/award2.png">
-                    </div>
-                    <div class="award-image-container">
-                        <img loading="lazy" src="img/award-logos/award3.png">
-                    </div>
-                    <div class="award-image-container">
-                        <img loading="lazy" src="img/award-logos/award4.png">
-                    </div>
-                    <div class="award-image-container">
-                        <img loading="lazy" src="img/award-logos/award5.png">
-                    </div>
-                    <div class="award-image-container">
-                        <img loading="lazy" src="img/award-logos/award6.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</what-we-do>
+    </what-weve-done>
 </x-layout>

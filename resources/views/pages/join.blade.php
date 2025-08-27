@@ -1,3 +1,4 @@
+<x-layout>
 <what-we-do inline-template>
     <div class="what-we-do">
         <!--<video autoplay muted loop playsinline class="background-video">
@@ -376,3 +377,4 @@
         </div>
     </div>
 </what-we-do>
+</x-layout>
