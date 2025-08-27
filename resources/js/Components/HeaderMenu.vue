@@ -43,21 +43,21 @@
         <div class="full-menu-container custom-container">
             <div class="right">
                 <nav>
-                    <router-link to="/">
+                    <router-link to="/" @click="openCloseMenu">
                         <img class="logo" :src="`${baseUrl}/img/logo-square.png`"  alt=""/>
                     </router-link>
-                    <router-link to="/what-we-do"><span class="green-text">what</span> we do</router-link>
-                    <router-link to="/how"><span class="green-text">how</span> we do it</router-link>
-                    <router-link to="/who"><span class="green-text">who</span> we are</router-link>
-                    <router-link to="/what-we-done"><span class="green-text">what</span> we've done</router-link>
-                    <router-link to="/join"><span class="green-text">join</span> us</router-link>
-                    <router-link to="/contact"><span class="green-text">get</span> in touch</router-link>
+                    <router-link to="/what-we-do" @click="openCloseMenu"><span class="green-text">what</span> we do</router-link>
+                    <router-link to="/how" @click="openCloseMenu"><span class="green-text">how</span> we do it</router-link>
+                    <router-link to="/who" @click="openCloseMenu"><span class="green-text">who</span> we are</router-link>
+                    <router-link to="/what-we-done" @click="openCloseMenu"><span class="green-text">what</span> we've done</router-link>
+                    <router-link to="/join" @click="openCloseMenu"><span class="green-text">join</span> us</router-link>
+                    <router-link to="/contact" @click="openCloseMenu"><span class="green-text">get</span> in touch</router-link>
 
-                    <div class="social-links">
-                        <router-link to="ig-aidias" target="_blank">
+                    <div class="social-links" >
+                        <router-link to="ig-aidias" target="_blank" @click="openCloseMenu">
                             <img :src="`${baseUrl}/img/instagram.png`"  alt=""/>
                         </router-link>
-                        <router-link to="fb-aidias" target="_blank">
+                        <router-link to="fb-aidias" target="_blank" @click="openCloseMenu">
                             <img :src="`${baseUrl}/img/facebook.png`"  alt=""/>
                         </router-link>
                     </div>
@@ -107,14 +107,14 @@ onMounted(() => {
         const topMenu = document.getElementById("top-menu")
         const fullMenu = document.getElementById("full-menu")
         console.log(fullMenu)
-        fullMenu.style.backgroundColor = "black"
+        // fullMenu.style.backgroundColor = "black"
 
         if (!topMenu || !fullMenu) return  // prevent null error
 
         if (val) {
             topMenu.style.display = "none"
             fullMenu.style.display = "block"
-           document.body.style.overflow = "hidden"
+        //    document.body.style.overflow = "hidden"
         } else {
             topMenu.style.display = "block"
             fullMenu.style.display = "none"
