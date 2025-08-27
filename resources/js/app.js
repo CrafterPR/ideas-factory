@@ -1,5 +1,5 @@
+import './script.js';
 import './main.js'
-import './script.js'
 
 
 
