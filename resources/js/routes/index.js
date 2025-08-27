@@ -1,3 +1,4 @@
+//resources/js/routes/index.js
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from "@/Components/Home.vue";
 import WhatWeDo from "@/Components/WhatWeDo.vue";

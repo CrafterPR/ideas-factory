@@ -1,3 +1,4 @@
+// resources/js/main.js
 import { createApp } from 'vue';
 import App from '@/Components/App.vue';
 import router from '@/routes/';

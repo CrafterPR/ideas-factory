@@ -1,3 +1,4 @@
+{{-- resources/view/home.blade.php --}}
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -22,7 +23,9 @@
 
 </head>
 <body>
-<div id="app"></div>
-<script type="text/javascript" src="{{ asset('build/assets/app-BerfswTl.js') }}"></script>
+    <div id="app"></div>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
 </body>
+<div id="app"></div>
 </html>

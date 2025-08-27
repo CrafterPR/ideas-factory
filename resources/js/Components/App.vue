@@ -1,10 +1,11 @@
+<!-- /resources/js/Components/app.vue -->
 <template>
   <header-menu />
-    <router-view v-slot="{ Component }">
-        <component :is="Component" />
-        <pre> {{ Component.name }}</pre>
-    </router-view>
-    <footer-menu />
+  <router-view v-slot="{ Component }">
+  <component :is="Component" />
+  <p>Router View is alive ✅</p>
+</router-view>
+  <footer-menu />
 </template>
 
 <script setup>
