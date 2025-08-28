@@ -15,34 +15,18 @@
                 <nav class="row">
                     <div class="col-6 col-sm-3 col-md-3">
                         <h4>Head <span class="green-text">office</span></h4>
-                        <p>fresh</p>
-                        <p>Union</p>
-                        <p>2-10 Albert Square</p>
-                        <p>Nairobi</p>
-                        <p>M2 6LW</p>
-                        <a href="#" target="_blank">
-                            <p class="w3w"><span class="green-text">///</span>fairly.
-                                <wbr>
-                                grand.
-                                <wbr>
-                                popped
-                            </p>
-                        </a>
+                        <p>Aidias Factory</p>
+                        <p>Sigona Cresent</p>
+                        <p>Tilisi, off A104</p>
+                        <p>Nairobi-Nakuru Highway</p>
+
                     </div>
                     <div class="col-6 col-sm-3 col-md-3">
-                        <h4>Edinburgh <span class="green-text">office</span></h4>
-                        <p>fresh Edinburgh</p>
-                        <p>1 St Colme Street</p>
-                        <p>Edinburgh</p>
-                        <p>EH3 6AA</p>
-                        <a href="#" target="_blank">
-                            <p class="w3w"><span class="green-text">///</span>bind.
-                                <wbr>
-                                deaf.
-                                <wbr>
-                                happen
-                            </p>
-                        </a>
+                        <h4>Godown II <span class="green-text">Workshop</span></h4>
+                        <p>World Plastics</p>
+                        <p>Limuru Road,</p>
+                        <p>off A104 Nairobi-Nakuru</p>
+                        <p>Highway Junction</p>
                     </div>
                     <!--<div class="col-6 col-sm-3 col-md-3">
                         <h4>Fresh <span class="green-text">warehouse</span></h4>
