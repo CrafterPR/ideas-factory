@@ -128,7 +128,7 @@
                 </div>
             </div>
         </div>
-        @include('partials.client_award')
+        @include('partials.client_awards')
     </div>
 </div>
 </x-layout>
