@@ -108,7 +108,7 @@
                 <div class="heading-container custom-container">
                     <h3>fresh life</h3>
                     <p>Check out our social channels and see what the team has been up to</p>
-                    <img loading="lazy" class="arrow-grid" src="{{ asset('img/arrow-grid.png') }}">
+                    <img loading="lazy" class="arrow-grid" src="{{ asset('img/arrow-grid.png') }}" alt="">
                 </div>
                 <div class="custom-container">
                     <div class="social-links">

@@ -93,3 +93,17 @@
         </div>
     </div>
 </header-menu>
+@push('scripts')
+    <script>
+        function hideMenu(){
+            document.getElementById("top-menu").style.display="block";
+            document.getElementById("full-menu").style.display="none";
+            document.body.style.overflow="auto"
+        }
+        function showMenu (){
+            document.getElementById("top-menu").style.display="none";
+            document.getElementById("full-menu").style.display="flex";
+            document.body.style.overflow="hidden"
+        }
+    </script>
+@endpush
