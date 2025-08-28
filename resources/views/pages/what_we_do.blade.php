@@ -291,33 +291,7 @@
             </div>
         </div>
         @include('partials.client-logos')
-        <div class="awards-section">
-            <div class="section-content custom-container">
-                <div>
-                    <h3>Did we tell you we're award winning?</h3>
-                </div>
-                <div class="award-images-container">
-                    <div class="award-image-container">
-                        <img loading="lazy" src="{{ asset('img/award-logos/award1.png') }}">
-                    </div>
-                    <div class="award-image-container">
-                        <img loading="lazy" src="{{ asset('img/award-logos/award2.png') }}">
-                    </div>
-                    <div class="award-image-container">
-                        <img loading="lazy" src="{{ asset('img/award-logos/award3.png') }}">
-                    </div>
-                    <div class="award-image-container">
-                        <img loading="lazy" src="{{ asset('img/award-logos/award4.png') }}">
-                    </div>
-                    <div class="award-image-container">
-                        <img loading="lazy" src="{{ asset('img/award-logos/award5.png') }}">
-                    </div>
-                    <div class="award-image-container">
-                        <img loading="lazy" src="{{ asset('img/award-logos/award6.png') }}">
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('partials.client_awards')
     </div>
 </what-we-do>
 </x-layout>

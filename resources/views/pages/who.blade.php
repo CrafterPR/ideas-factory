@@ -131,17 +131,53 @@
         </div>
     </who>
     <style>
+        /* Main container */
         .who .fresh-faces-section .section-content .fresh-faces-container {
             display: grid;
-            grid-template-columns: repeat(6, 2fr); /* 6 equal columns */
-            grid-auto-rows: 200px; /* adjust row height */
-            gap: 20px; /* spacing */
+            grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
+            grid-auto-rows: 250px; /* default row height (adjust to fit images) */
+            gap: 20px; /* space between items */
         }
 
-        .who .fresh-faces-section .section-content .fresh-faces-container:first-child .fresh-face-container:nth-child(2) {
-            grid-column: 3 / 6;
-            grid-row: 1 / 4;
+        /* Each face item */
+        .who .fresh-faces-section .section-content .fresh-face-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
         }
+
+        /* Images inside */
+        .who .fresh-faces-section .section-content .fresh-face-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Hover overlay */
+        .who .fresh-faces-section .section-content .hover-content-container {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0,0,0,0.5);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .who .fresh-faces-section .section-content .fresh-face-container:hover .hover-content-container {
+            opacity: 1;
+        }
+
+        /* Special layout rule: second face in the first group */
+        .who .fresh-faces-section .section-content
+        .fresh-faces-container:first-child
+        .fresh-face-container:nth-child(2) {
+            grid-column: 3 / 6; /* spans columns 3, 4, 5 */
+            grid-row: 1 / 4;   /* spans 3 rows */
+        }
+
     </style>
 </x-layout>
 

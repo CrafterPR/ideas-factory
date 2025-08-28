@@ -247,33 +247,7 @@
                 </div>
             </div>
             <div class="other-projects-section-below"></div>
-            <div class="awards-section">
-                <div class="section-content custom-container">
-                    <div>
-                        <h3>We don't like to boast, but...</h3>
-                    </div>
-                    <div class="award-images-container">
-                        <div class="award-image-container">
-                            <img loading="lazy" src="img/award-logos/award1.png">
-                        </div>
-                        <div class="award-image-container">
-                            <img loading="lazy" src="img/award-logos/award2.png">
-                        </div>
-                        <div class="award-image-container">
-                            <img loading="lazy" src="img/award-logos/award3.png">
-                        </div>
-                        <div class="award-image-container">
-                            <img loading="lazy" src="img/award-logos/award4.png">
-                        </div>
-                        <div class="award-image-container">
-                            <img loading="lazy" src="img/award-logos/award5.png">
-                        </div>
-                        <div class="award-image-container">
-                            <img loading="lazy" src="img/award-logos/award6.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @include('partials.client_awards')
         </div>
     </how>
 </x-layout>
