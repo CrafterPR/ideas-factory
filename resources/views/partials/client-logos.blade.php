@@ -41,6 +41,20 @@
                 <div class="swiper-slide">
                     <img loading="lazy" src="{{ asset('img/client-logos/UKTech Hub Black logo-03.png') }}">
                 </div>
+                <div class="swiper-slide">
+                    <img loading="lazy" src="{{ asset('img/client-logos/KICC black logo-01.png') }}">
+                </div>
+                <div class="swiper-slide">
+                    <img loading="lazy" src="{{ asset('img/client-logos/Carnivore black logo-03.png') }}">
+                </div>
+                <div class="swiper-slide">
+                    <img loading="lazy" src="{{ asset('img/client-logos/FAIDIKA NA SANAA logo black-02.png') }}">
+                </div>
+                <div class="swiper-slide">
+                    <img loading="lazy" src="{{ asset('img/client-logos/Tamarind Group black logo-03.png') }}">
+                </div>
+
+
 
             </div>
         </div>
