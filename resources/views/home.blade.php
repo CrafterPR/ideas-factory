@@ -47,10 +47,10 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="{{ route('what-we-done-galaxy-roadshow') }}">
-                                <img loading="lazy" src="{{ asset('img/case-studies/banners/main-banner.jpeg') }}">
+                            <a href="{{ route('startup-festival') }}">
+                                <img loading="lazy" src="{{ asset('img/case-studies/banners/startup-festival.png') }}">
                                 <div class="custom-container">
-                                    <h3>KFCB North Eastern Roadshow</h3>
+                                    <h3>Startup Festival</h3>
                                     <p>Click to discover more</p>
                                 </div>
                             </a>
