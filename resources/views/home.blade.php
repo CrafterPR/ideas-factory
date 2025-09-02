@@ -48,9 +48,9 @@
                         </div>
                         <div class="swiper-slide">
                             <a href="{{ route('startup-festival') }}">
-                                <img loading="lazy" src="{{ asset('img/case-studies/banners/startup-festival.png') }}">
+                                <img loading="lazy" src="{{ asset('img/case-studies/banners/startup-festival-min.png') }}">
                                 <div class="custom-container">
-                                    <h3>Startup Festival</h3>
+                                    <h3>Startup Festival - We designed a buzzing, interactive space with striking stages vibrant exhibitions, and seamless programming</h3>
                                     <p>Click to discover more</p>
                                 </div>
                             </a>

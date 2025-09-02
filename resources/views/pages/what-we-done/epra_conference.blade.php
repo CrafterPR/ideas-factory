@@ -74,65 +74,7 @@
             </div>
         </div>
 
-        <div class="other-projects-section">
-            <div class="section-content custom-container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3>Check out these other amazing projects</h3>
-                    </div>
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-6 col-md-3">
-                                <div class="case-study-container">
-                                    <a href="{{ route('startup-festival') }}">
-                                        <img loading="lazy" src="{{ asset('img/case-studies/thumbs/startup-festival-thumb-min.png') }}">
-                                        <div class="hover-content-container">
-                                            <div class="hover-content">
-                                                <img loading="lazy" class="case-study-arrow" src=" {{ asset('img/green-arrow-black-background-bottom-right.png') }}">
-                                                <p class="case-study-name">Startup Festival</p>
-                                                <p class="case-study-description">Innovation met celebration at the Startup Festival, brought to life by Aidias Factory for KeNIA.</p>
-                                                <p class="case-study-bottom-link">Read More</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="case-study-container">
-                                    <a href="samsung-galaxy-roadshow.html">
-                                        <img loading="lazy" src=" {{ asset('img/case-studies/thumbs/01ef3f0836c0618ae0bf19d144676319.jpg') }}">
-                                        <div class="hover-content-container">
-                                            <div class="hover-content">
-                                                <img loading="lazy" class="case-study-arrow" src=" {{ asset('img/green-arrow-black-background-bottom-right.png') }}">
-                                                <p class="case-study-name">Samsung</p>
-                                                <p class="case-study-description">Galaxy AI Roadshow</p>
-                                                <p class="case-study-bottom-link">Read More</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="case-study-container">
-                                    <a href="#">
-                                        <img loading="lazy" src="{{ asset('img/case-studies/thumbs/b9c6d6f622ff4e09aadd66baa7a5c584.jpg') }}">
-                                        <div class="hover-content-container">
-                                            <div class="hover-content">
-                                                <img loading="lazy" class="case-study-arrow" src="{{ asset('img/green-arrow-black-background-bottom-right.png') }}">
-                                                <p class="case-study-name">Ferrero</p>
-                                                <p class="case-study-description">Company conference</p>
-                                                <p class="case-study-bottom-link">Read More</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+            @include('pages.what-we-done.other-projects', ['current' => 'epra'])
         <div class="other-projects-section-below"></div>
     </div>
 </case-study>

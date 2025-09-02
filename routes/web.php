@@ -91,9 +91,9 @@ Route::prefix('what-we-done')->group(function () {
     Route::get('startup-festival', function () {
         return view('pages.what-we-done.startup-festival');
     })->name('startup-festival');
-    Route::get('ferro-conference', function () {
-        return view('pages.ferro_conference');
-    })->name('what-we-done-ferro-conference');
+    Route::get('stima-at-50', function () {
+        return view('pages.what-we-done.stima-at-50');
+    })->name('stima-at-50');
 });
 Route::get('what-we-done', function () {
     return view('pages.what_we_done');

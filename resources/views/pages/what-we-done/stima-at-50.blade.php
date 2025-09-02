@@ -8,7 +8,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <a href="#">
-                                <img loading="lazy" src="{{ asset('img/case-studies/banners/startup-festival-min.png') }}">
+                                <img loading="lazy" src="{{ asset('img/case-studies/banners/stima-at-50-min.png') }}">
                             </a>
                         </div>
 
@@ -21,14 +21,14 @@
         </div>
         <div class="page-header-section">
             <div class="section-content custom-container">
-                <h1>Innovation met celebration at the Startup Festival, brought to life by Aidias Factory for KeNIA. </h1>
+                <h1>A golden milestone deserves a golden celebration and Aidias Factory delivered just that for Stima Sacco’s 50th Anniversary.</h1>
             </div>
         </div>
         <div class="intro-section">
             <div class="section-content custom-container">
                 <div class="row">
                     <div class="col-12">
-                        <p>We designed a buzzing, interactive space with striking stages, vibrant exhibitions, and seamless programming; connecting startups, investors, and thought leaders in a festival that radiated entrepreneurial energy.</p>
+                        <p>We crafted the setup, produced a powerful documentary, staged a glamorous gala dinner, and orchestrated captivating storytelling and branding. The result: a spectacular celebration of legacy and the future.</p>
                     </div>
                 </div>
             </div>
@@ -38,12 +38,12 @@
                 <div class="row intro-bottom">
                     <div class="col-12 col-xl-6 intro-image">
                         <div class="image-container">
-                            <img loading="lazy" src="{{ asset('img/case-studies/thumbs/startup-festival-thumb-min.png') }}">
+                            <img loading="lazy" src="{{ asset('img/case-studies/thumbs/stima-50-thumb-min.png') }}">
                         </div>
                     </div>
                     <div class="col-12 col-xl-6 intro-quote">
                         <div class="quote-container">
-                            <p class="quote">Curated vibrant spaces fostering seamless entrepreneurial connections.</p>
+                            <p class="quote">Curated a spectacular celebration of legacy and the future.</p>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
             </div>
         </div>
 
-        @include('pages.what-we-done.other-projects', ['current' => 'startup'])
+        @include('pages.what-we-done.other-projects', ['current' => 'stima'])
         <div class="other-projects-section-below"></div>
     </div>
 </case-study>
