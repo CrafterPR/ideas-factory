@@ -85,12 +85,12 @@ Route::get('who-we-are', function () {
     return view('pages.who', compact('teamGroups'));
 })->name('who');
 Route::prefix('what-we-done')->group(function () {
-    Route::get('store-opening', function () {
-        return view('pages.store_opening');
-    })->name('what-we-done-store-opening');
-    Route::get('galaxy-roadshow', function () {
-        return view('pages.galaxy_roadshow');
-    })->name('what-we-done-galaxy-roadshow');
+    Route::get('epra-conference', function () {
+        return view('pages.what-we-done.epra_conference');
+    })->name('epra-conference');
+    Route::get('startup-festival', function () {
+        return view('pages.what-we-done.startup-festival');
+    })->name('startup-festival');
     Route::get('ferro-conference', function () {
         return view('pages.ferro_conference');
     })->name('what-we-done-ferro-conference');

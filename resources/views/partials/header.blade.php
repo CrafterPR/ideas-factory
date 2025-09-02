@@ -69,12 +69,12 @@
                     <div class="news-stories-container">
                         <div class="news-story">
                             <div class="news-left">
-                                <img src="{{ asset('img/case-studies/thumbs/175b1d829551283f0ecf72c075cf00a3.jpg') }}">
+                                <img src="{{ asset('img/case-studies/thumbs/epra-thunail-min.png') }}">
                             </div>
                             <div class="news-right">
-                                <h3>Co-op Store Openings</h3>
-                                <p>Delivering new store launches with impact</p>
-                                <a href="{{ route('what-we-done-store-opening') }}">Read more</a>
+                                <h3>powered EPRA’s flagship Research and Innovation Conference 2025</h3>
+                                <p>Transforming bold ideas into a high-impact experience. </p>
+                                <a href="{{ route('epra-conference') }}">Read more</a>
                             </div>
                         </div>
                         <div class="news-story">
@@ -84,7 +84,7 @@
                             <div class="news-right">
                                 <h3>Samsung</h3>
                                 <p>Galaxy AI Roadshow</p>
-                                <a href="{{ route('what-we-done-galaxy-roadshow') }}">Read more</a>
+                                <a href="{{ route('startup-festival') }}">Read more</a>
                             </div>
                         </div>
                     </div>

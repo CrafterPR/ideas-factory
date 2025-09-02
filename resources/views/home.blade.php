@@ -38,10 +38,10 @@
                 <div class="swiper swiper-case-studies">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="{{ route('what-we-done-store-opening') }}">
-                                <img loading="lazy" src="{{ asset('img/case-studies/banners/main-banner.jpeg') }}" />
+                            <a href="{{ route('epra-conference') }}">
+                                <img loading="lazy" src="{{ asset('img/case-studies/banners/EPRA-conference.png') }}" />
                                 <div class="custom-container">
-                                    <h3>Delivering new store launches with impact</h3>
+                                    <h3>Aidias Factory powered EPRA’s flagship Research and Innovation Conference 2025.</h3>
                                     <p>Click to discover more</p>
                                 </div>
                             </a>

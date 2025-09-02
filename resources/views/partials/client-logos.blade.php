@@ -3,55 +3,55 @@
         <div class="swiper swiper-client-logos">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/British Council logo-02.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/British Council logo-02.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/NCA-black logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/NCA-black logo-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/giz logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/giz logo-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/ICC Church black logo-03-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/ICC Church black logo-03-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/Jubilee black logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/Jubilee black logo-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/Kasneb black logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/Kasneb black logo-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/KCAA black logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/KCAA black logo-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/KeNIA black logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/KeNIA black logo-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/KFCB black logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/KFCB black logo-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/Stima Sacco black logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/Stima Sacco black logo-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/The CommonWealth black logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/The CommonWealth black logo-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/The Edge black logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/The Edge black logo-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/UKTech Hub Black logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/UKTech Hub Black logo-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/KICC black logo-01.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/KICC black logo-01.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/Carnivore black logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/Carnivore black logo-03.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/FAIDIKA NA SANAA logo black-02.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/FAIDIKA NA SANAA logo black-02.png') }}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img loading="lazy" src="{{ asset('img/client-logos/Tamarind Group black logo-03.png') }}">
+                    <img loading="lazy" src="{{ asset('img/client-logos/Tamarind Group black logo-03.png') }}" alt="">
                 </div>
 
 
