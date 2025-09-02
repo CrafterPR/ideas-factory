@@ -31,10 +31,10 @@ Route::get('who-we-are', function () {
   "Creative": [
     {
       "id": 37,
-      "name": "Lee Harris",
-      "job_title": "CEO",
-      "thumbnail_url": "/img/team/thumb/placeholder.jpeg",
-      "short_description": "I am a black belt in Taekwondo.",
+      "name": "Arnold Nderitu",
+      "job_title": "Creative Director",
+      "thumbnail_url": "/img/team/thumb/nderitu.png",
+      "short_description": "Incharge of elevating the agency\'s creative output to exceed client expectations",
       "created_at": null,
       "updated_at": "2023-02-22T18:58:21.000000Z",
       "enabled": 1
@@ -43,8 +43,8 @@ Route::get('who-we-are', function () {
   "Customer Care": [
     {
       "id": 39,
-      "name": "Hollie Thompson",
-      "job_title": "Event Producer",
+      "name": "Joel Chacha",
+      "job_title": "Managing Partner",
       "thumbnail_url": "/img/team/thumb/placeholder.jpeg",
       "short_description": null,
       "created_at": null,
@@ -55,8 +55,8 @@ Route::get('who-we-are', function () {
   "Administration": [
     {
       "id": 40,
-      "name": "Hayley Wildsmith",
-      "job_title": "Head of Film & Social",
+      "name": "Maureen Chelimo",
+      "job_title": "PR Director",
       "thumbnail_url": "/img/team/thumb/placeholder.jpeg",
       "short_description": null,
       "created_at": null,
@@ -67,8 +67,8 @@ Route::get('who-we-are', function () {
   "Support": [
     {
       "id": 41,
-      "name": "Graham Bowes",
-      "job_title": "Senior Designer",
+      "name": "Joseph Ochieng",
+      "job_title": "Film Producer",
       "thumbnail_url": "/img/team/thumb/placeholder.jpeg",
       "short_description": null,
       "created_at": null,

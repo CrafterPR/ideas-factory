@@ -43,7 +43,7 @@
             <div class="section-content custom-container">
                 <div class="row">
                     <div class="col-12">
-                        <p>We choreographed setup, exhibitions, and audio-visual on a grand scale, creating a vibrant convergence of innovators from across Africa, and spotlighting Kenya as the heartbeat of continental innovation.</p>
+                        <p>From bold branding and world-class setup and audio-visual, to curating the delegate experience, we turned Kenya Innovation Week 2023 into a global showcase; building bridges, sparking collaborations, and elevating Kenya as a trailblazer in innovation.</p>
                     </div>
                 </div>
             </div>

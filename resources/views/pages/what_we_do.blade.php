@@ -36,7 +36,7 @@
                     <div class="row g-0">
                         <div class="col-12">
                             <h2>What we do</h2>
-                            <p>For us at fresh, being a global brand experience agency means <br>executing brilliantly across our core service offerings.</p>
+                            <p>For us at Aidias Factory, being a global brand experience agency means <br>executing brilliantly across our core service offerings.</p>
                         </div>
                     </div>
                 </div>
@@ -60,13 +60,13 @@
                                     <p>The most memorable campaigns are the ones that make you feel something. We get to the kernel of the human story our clients are trying to tell and then identify the most impactful channel for their audience to hear it.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/Campaigns.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/campaigns.jpg') }}">
                                 </div>
                             </div>
                             <div class="row g-0">
                                 <div class="col-12 col-lg-6 order-1 order-lg-2 text-content">
                                     <h3>Experiential marketing</h3>
-                                    <p>We've been bringing brands to life through unforgettable experiences since 2004, immersing our clients' target audience in their products and services. We design experiences that increase brand exposure, build meaningful new connections, and deliver tangible results.</p>
+                                    <p>We've been bringing brands to life through unforgettable experiences since 2017, immersing our clients' target audience in their products and services. We design experiences that increase brand exposure, build meaningful new connections, and deliver tangible results.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
                                     <img loading="lazy" src="{{ asset('img/what-we-do/Experiential_marketing.jpg') }}">

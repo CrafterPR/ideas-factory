@@ -34,7 +34,7 @@
                 <div class="section-content custom-container">
                     <div class="vertically-centered">
                         <h1><span class="green-text">How we do it...</span></h1>
-                        <p>Here at fresh we're award-winning experts in creating unforgettable global brand experiences. But you've probably heard every agency say that.</p>
+                        <p>Here at Aidias Factory we're award-winning experts in creating unforgettable global brand experiences. But you've probably heard every agency say that.</p>
                         <p>Scroll down to discover <a class="green-text" href="#zing">what makes us different</a></p>
                     </div>
                 </div>
