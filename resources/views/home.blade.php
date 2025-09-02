@@ -56,8 +56,8 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="{{ route('what-we-done-ferro-conference') }}">
-                                <img loading="lazy" src="{{ asset('img/case-studies/banners/main-banner.jpeg') }}">
+                            <a href="{{ route('kiw-2024') }}">
+                                <img loading="lazy" src="{{ asset('img/case-studies/banners/kiw2024-min.png') }}">
                                 <div class="custom-container">
                                     <h3>KENIA Innovation Week 2024</h3>
                                     <p>Click to discover more</p>

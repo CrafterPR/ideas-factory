@@ -57,6 +57,23 @@
                         </div>
                     </div>
                    @endif
+                   @if($current !== 'kiw2024')
+                  <div class="col-6 col-md-3">
+                    <div class="case-study-container">
+                        <a href="{{ route('kiw-2024') }}">
+                            <img loading="lazy" src="{{ asset('img/case-studies/thumbs/kiw-2024-thumb-min.png') }}">
+                            <div class="hover-content-container">
+                                <div class="hover-content">
+                                    <img loading="lazy" class="case-study-arrow" src="{{ asset('img/green-arrow-black-background-bottom-right.png') }}">
+                                    <p class="case-study-name">KIW 2024(AFRICAN EDITION)</p>
+                                    <p class="case-study-description">Kenya Innovation Week 2024 (Africa Edition) was a continental showstopper; and Aidias Factory was behind the magic.</p>
+                                    <p class="case-study-bottom-link">Read More</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+               @endif
 
                 </div>
             </div>

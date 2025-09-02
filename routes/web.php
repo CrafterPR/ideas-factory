@@ -94,6 +94,9 @@ Route::prefix('what-we-done')->group(function () {
     Route::get('stima-at-50', function () {
         return view('pages.what-we-done.stima-at-50');
     })->name('stima-at-50');
+    Route::get('kenya-innovation-week-2024', function () {
+        return view('pages.what-we-done.kiw-2024');
+    })->name('kiw-2024');
 });
 Route::get('what-we-done', function () {
     return view('pages.what_we_done');
