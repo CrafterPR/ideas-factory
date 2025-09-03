@@ -43,6 +43,18 @@ new Swiper(".swiper-case-studies",
             clickable:!0
         }
     });
+new Swiper(".swiper-header",
+    {modules:[Pagination,Autoplay],
+        direction:"horizontal",
+        loop:!0,
+        autoplay:{
+            delay:5e3
+        },
+        pagination:{
+            el:".swiper-pagination",
+            clickable:!0
+        }
+    });
 
 
 

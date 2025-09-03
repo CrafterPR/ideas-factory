@@ -10,17 +10,17 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <a href="#">
-                                    <img loading="lazy" src="img/page-headers/Background_1.jpg" alt="">
+                                    <img loading="lazy" src="img/case-studies/banners/how-we-do-it.png" alt="">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="#">
-                                    <img loading="lazy" src="img/page-headers/Background_2.jpg" alt="">
+                                    <img loading="lazy" src="img/case-studies/banners/Background_2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="#">
-                                    <img loading="lazy" src="img/page-headers/Background_3.jpg" alt="">
+                                    <img loading="lazy" src="img/case-studies/banners/Background_3.jpg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                         <div class="col-1 d-none d-lg-block">
                         </div>
                         <div class="col-12 col-lg-10">
-                            <p>For over 20 years our talented team have been working under one roof (metaphorically these days) – and there's nothing we love more than taking the spark of an idea and turning it into something amazing.</p>
+                            <p>For almost a decade, our talented team has been working under one roof (metaphorically these days) – and there's nothing we love more than taking the spark of an idea and turning it into something amazing.</p>
                             <p>Our <b class="green-text">'joined-up thinking'</b> approach means we don't worry about what the brand experience will be until we've figured out what will have the biggest impact, then our teams work closely together to execute in the most effective way.</p>
                         </div>
                         <div class="col-1 d-none d-lg-block">
@@ -89,27 +89,34 @@
                 <div class="section-content custom-container">
                     <div class="row">
                         <div class="col-12">
-                            <h3>For <span class="green-text">20 years</span>, we've been making <br>amazing things happen for our clients:</h3>
+                            <h3>For almost a decade, we've been making <br>amazing things happen for our clients:</h3>
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <ul>
-                                        <li>Campaigns</li>
-                                        <li>Experiential marketing</li>
-                                        <li>Digital marketing</li>
-                                        <li>Branded content</li>
                                         <li>Corporate events</li>
                                         <li>Public events</li>
+                                        <li>Outdoor events</li>
+                                        <li>Hybrid & Virtual Events</li>
+                                        <li>Event Production & Technical Support</li>
+                                        <li>Merchandising & Promotional Items</li>
+                                        <li>Sports & Entertainment Marketing</li>
+                                        <li>Roadshows & Mobile</li>
+                                        <li>Marketing Units</li>
+
                                     </ul>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <ul>
-                                        <li>Outdoor events</li>
+                                        <li>VIP & Private Experiences</li>
                                         <li>Experiential events</li>
-                                        <li>Tradeshows & exhibitions</li>
-                                        <li>Brand strategy</li>
-                                        <li>Employee engagement</li>
-                                        <li>Comms strategy &amp; planning</li>
-                                        <li>Content creation</li>
+                                        <li>Trade-shows & exhibitions Campaigns</li>
+                                        <li>Experiential marketing</li>
+                                        <li>Digital marketing</li>
+                                        <li>Community Management</li>
+                                        <li>Branded content</li>
+                                        <li>Crisis Communication & Reputation Management</li>
+                                        <li>Brand Identity & Design Studio</li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -121,9 +128,8 @@
                 <div class="section-content custom-container">
                     <div class="row">
                         <div class="col-12">
-                            <h3><img loading="lazy" src="img/fresh-promise.png">fresh <span class="green-text">green</span> promise</h3>
-                            <p>Whether it's live, virtual or hybrid, all our projects are underpinned by our 'fresh Green Promise'. This revolves around the Power of Three – Planet, Profit & People – which means raising awareness of not just the impact of the events industry on the environment but also how businesses can continue to function effectively to the benefit of everyone involved.</p>
-                            <p>On top of this, we're members of ISLA, industry leaders in event sustainability, proud to be EcoVadis accredited and have achieved ISO 14001 and ISO 20121 in Sustainable Events Management.</p>
+                            <h3><img loading="lazy" src="img/fresh-promise.png">Our <span class="green-text">green</span> promise</h3>
+                            <p>Whether it's live, virtual or hybrid, all our projects are underpinned by our 'Green Promise'. This revolves around the Power of Three – Planet, Profit & People – which means raising awareness of not just the impact of the events industry on the environment but also how businesses can continue to function effectively to the benefit of everyone involved.</p>
                             <div class="video-js-container">
                                 <video
                                     loading="lazy"
@@ -145,10 +151,7 @@
                                     </p>
                                 </video>
                             </div>
-                            <div class="section-footer">
-                                <p><a href="downloads/Fresh-Sustainability.pdf" target="_blank">Click here</a> to download our fresh green promise</p>
-                                <img loading="lazy" src="img/iso-logo.png">
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -168,84 +171,12 @@
                     <div class="row">
                         <div class="col-12">
                             <p>Our door's always open and we'd love to chat to you about bringing your next big idea to life</p>
-                            <p><b><a href="contact.html">Click here and get in touch</a></b></p>
+                            <p><b><a href="{{ route('contact') }}">Click here and get in touch</a></b></p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="other-projects-section">
-                <div class="section-content custom-container">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3>Click below to see joined-up thinking in action</h3>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-6 col-md-3">
-                                    <div class="case-study-container">
-                                        <a href="what-weve-done/co-op-store-openings.html">
-                                            <img loading="lazy" src="img/case-studies/thumbs/175b1d829551283f0ecf72c075cf00a3.jpg">
-                                            <div class="hover-content-container">
-                                                <div class="hover-content">
-                                                    <img loading="lazy" class="case-study-arrow" src="img/green-arrow-black-background-bottom-right.png">
-                                                    <p class="case-study-name">Co-op Store Openings</p>
-                                                    <p class="case-study-description">Delivering new store launches with impact</p>
-                                                    <p class="case-study-bottom-link">Read More</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class="case-study-container">
-                                        <a href="what-weve-done/samsung-galaxy-roadshow.html">
-                                            <img loading="lazy" src="img/case-studies/thumbs/01ef3f0836c0618ae0bf19d144676319.jpg">
-                                            <div class="hover-content-container">
-                                                <div class="hover-content">
-                                                    <img loading="lazy" class="case-study-arrow" src="img/green-arrow-black-background-bottom-right.png">
-                                                    <p class="case-study-name">Samsung</p>
-                                                    <p class="case-study-description">Galaxy AI Roadshow</p>
-                                                    <p class="case-study-bottom-link">Read More</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class="case-study-container">
-                                        <a href="what-weve-done/ferrero-conference.html">
-                                            <img loading="lazy" src="img/case-studies/thumbs/b9c6d6f622ff4e09aadd66baa7a5c584.jpg">
-                                            <div class="hover-content-container">
-                                                <div class="hover-content">
-                                                    <img loading="lazy" class="case-study-arrow" src="img/green-arrow-black-background-bottom-right.png">
-                                                    <p class="case-study-name">Ferrero</p>
-                                                    <p class="case-study-description">Company conference</p>
-                                                    <p class="case-study-bottom-link">Read More</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class="case-study-container">
-                                        <a href="what-weve-done/vodafone-connected-education.html">
-                                            <img loading="lazy" src="img/case-studies/thumbs/235282f9c89fa61c677e1afa97242691.jpg">
-                                            <div class="hover-content-container">
-                                                <div class="hover-content">
-                                                    <img loading="lazy" class="case-study-arrow" src="img/green-arrow-black-background-bottom-right.png">
-                                                    <p class="case-study-name">Vodafone Connected Education</p>
-                                                    <p class="case-study-description">Delivering a connected experience</p>
-                                                    <p class="case-study-bottom-link">Read More</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @include('pages.how-we-do-it.joined-up-thinking')
             <div class="other-projects-section-below"></div>
             @include('partials.client_awards')
         </div>

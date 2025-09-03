@@ -10,17 +10,17 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <a href="#">
-                                <img loading="lazy" src="{{ asset('img/page-headers/Background_4.jpg') }}">
+                                <img loading="lazy" src="{{ asset('img/case-studies/banners/main-banner.png') }}">
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="#">
-                                <img loading="lazy" src="{{ asset('img/page-headers/Background_5.jpg') }}">
+                                <img loading="lazy" src="{{ asset('img/case-studies/banners/stima-at-50-min.png') }}">
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="#">
-                                <img loading="lazy" src="{{ asset('img/page-headers/Background_6.jpg') }}">
+                                <img loading="lazy" src="{{ asset('img/case-studies/banners/kiw2024-min.png') }}">
                             </a>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                                     <p>The most memorable campaigns are the ones that make you feel something. We get to the kernel of the human story our clients are trying to tell and then identify the most impactful channel for their audience to hear it.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/campaigns.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/campaign.png') }}">
                                 </div>
                             </div>
                             <div class="row g-0">
@@ -69,7 +69,7 @@
                                     <p>We've been bringing brands to life through unforgettable experiences since 2017, immersing our clients' target audience in their products and services. We design experiences that increase brand exposure, build meaningful new connections, and deliver tangible results.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/Experiential_marketing.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/experiential-marketing.png') }}">
                                 </div>
                             </div>
                             <div class="row g-0">
@@ -78,7 +78,7 @@
                                     <p>Digital marketing is more than a few carefully worded posts on social media. Our in-house teams use an omnichannel approach to optimise brand reach and engagement in the most effective places, in front of the right people, in amazing ways.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/Digital_marketing.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/digital-marketing.jpg') }}">
                                 </div>
                             </div>
                             <div class="row g-0">
@@ -87,7 +87,7 @@
                                     <p>We craft stories that take people on a journey, conveying core brand values by showing, not telling. The result? Content that makes audiences invest emotionally.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/Branded_content.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/branded-content.png') }}">
                                 </div>
                             </div>
                         </div>
@@ -112,7 +112,7 @@
                                     <p>We've vowed to only create compelling corporate events with a uniquely fresh twist – brimming with creativity, first-class production values and engaging content to reignite business goals and brand love.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/Corporate_events.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/corporate-events.png') }}">
                                 </div>
                             </div>
                             <div class="row g-0">
@@ -121,7 +121,7 @@
                                     <p>There's nothing we love more than helping our client's shout from the rooftops – or anywhere public for that matter. Whether it's exhibiting at an open event or transforming public spaces into immersive other-worlds, we use a creative-first approach to push the boundaries and make sure they stand out from the crowd.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/Public_events.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/public-events.png') }}">
                                 </div>
                             </div>
                             <div class="row g-0">
@@ -130,7 +130,7 @@
                                     <p>There's a lot to consider when you take an empty outdoor environment and transform it into a fully functioning event space... luckily our teams have the know-how and the experience to make it happen. Whatever the weather, we’ve got you covered.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/Outdoor_events.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/outdoor-events.png') }}">
                                 </div>
                             </div>
                             <div class="row g-0">
@@ -139,7 +139,7 @@
                                     <p>We're big fans of showing rather than telling, which is why we're the trusted experiential events partner of some of the biggest brands in the world. Our focus is always on creating meaningful connections and an everlasting, positive impression.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/Experiential_events.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/experiential-events.png') }}">
                                 </div>
                             </div>
                             <div class="row g-0">
@@ -148,7 +148,7 @@
                                     <p>In a sea of competitors, it’s all about standing out from the crowd. Using a combination of intelligent creative, technical wizardry, and an unshakeable project delivery team, we bespoke design and build immersive exhibitions that educate, engage, and inspire.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/Tradeshows_and_Exhibitions.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/tradeshows-and-exhibitions.png') }}">
                                 </div>
                             </div>
                         </div>
@@ -173,7 +173,7 @@
                                     <p>Whether we're working with new or long-standing partners, we're not afraid to challenge the brief to define strategic goals, set measurements and design activations that deliver results.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-2 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/Brand_strategy.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/brand-strategy.png') }}">
                                 </div>
                             </div>
                             <div class="row g-0">
@@ -182,7 +182,7 @@
                                     <p>Not sure how to go about rallying the troops? No problem – together we can formulate creative engagement campaigns that showcase your values in action, boost morale and stimulate brand conversations.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/Brand_employee_engagement.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/brand-employee-engagement.jpg') }}">
                                 </div>
                             </div>
                             <div class="row g-0">
@@ -200,7 +200,7 @@
                                     <p>The age-old phrase 'content is king' is more relevant than ever. Our multi-disciplined in-house teams will work closely with you to create engaging content for any channel, across any media, as well as pre, during and post-event that keeps the conversation flowing and the momentum going.</p>
                                 </div>
                                 <div class="col-12 col-lg-6 order-2 order-lg-1 image-content">
-                                    <img loading="lazy" src="{{ asset('img/what-we-do/Content_creation.jpg') }}">
+                                    <img loading="lazy" src="{{ asset('img/what-we-do/content-creation.png') }}">
                                 </div>
                             </div>
                         </div>

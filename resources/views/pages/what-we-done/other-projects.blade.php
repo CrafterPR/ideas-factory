@@ -58,7 +58,7 @@
                     </div>
                    @endif
                    @if($current !== 'kiw2024')
-                  <div class="col-6 col-md-3">
+                    <div class="col-6 col-md-3">
                     <div class="case-study-container">
                         <a href="{{ route('kiw-2024') }}">
                             <img loading="lazy" src="{{ asset('img/case-studies/thumbs/kiw-2024-thumb-min.png') }}">
