@@ -22,57 +22,59 @@ Route::get('who-we-are', function () {
       "name": "Peter Otieno Odawo",
       "job_title": "Founder & C.E.O",
       "thumbnail_url": "/img/team/thumb/placeholder.jpeg",
-      "short_description": "My eyes change colour from green to blue in the sun.",
+      "short_description": "Proof that when creativity meets strategy, magic happens.",
       "created_at": null,
       "updated_at": "2025-01-06T12:21:52.000000Z",
       "enabled": 1
-    }
-  ],
-  "Creative": [
+    },
     {
-      "id": 37,
-      "name": "Arnold Nderitu",
-      "job_title": "Creative Director",
-      "thumbnail_url": "/img/team/thumb/nderitu.png",
-      "short_description": "Incharge of elevating the agency\'s creative output to exceed client expectations",
-      "created_at": null,
-      "updated_at": "2023-02-22T18:58:21.000000Z",
-      "enabled": 1
-    }
-  ],
-  "Customer Care": [
-    {
-      "id": 39,
-      "name": "Joel Chacha",
-      "job_title": "Managing Partner",
-      "thumbnail_url": "/img/team/thumb/placeholder.jpeg",
-      "short_description": null,
-      "created_at": null,
-      "updated_at": "2023-02-20T15:15:27.000000Z",
-      "enabled": 1
-    }
-  ],
-  "Administration": [
-    {
-      "id": 40,
+      "id": 36,
       "name": "Maureen Chelimo",
-      "job_title": "PR Director",
+      "job_title": "HR & Comms Director",
       "thumbnail_url": "/img/team/thumb/placeholder.jpeg",
-      "short_description": null,
+      "short_description": "The voice of the brand, keeping Aidias Factory inspired inside and out.",
       "created_at": null,
-      "updated_at": "2025-01-06T12:17:32.000000Z",
+      "updated_at": "2025-01-06T12:21:52.000000Z",
       "enabled": 1
-    }
-  ],
-  "Support": [
+    },
     {
-      "id": 41,
-      "name": "Joseph Ochieng",
-      "job_title": "Film Producer",
-      "thumbnail_url": "/img/team/thumb/placeholder.jpeg",
-      "short_description": null,
+      "id": 36,
+      "name": "Mwangi Muiga",
+      "job_title": "Events & AV Manager",
+      "thumbnail_url": "/img/team/thumb/mwangi-muiga.png",
+      "short_description": "Turning Aidias Factory’s events into experiences and Audio-Visual into pure magic.",
       "created_at": null,
-      "updated_at": "2023-02-17T15:02:03.000000Z",
+      "updated_at": "2025-01-06T12:21:52.000000Z",
+      "enabled": 1
+    },
+     {
+      "id": 36,
+      "name": "Faith Wanjiru",
+      "job_title": "Admin Manager",
+      "thumbnail_url": "/img/team/thumb/faith-wanjiru.png",
+      "short_description": "The powerhouse that keeps Aidias Factory running smoother than a well-oiled machine.",
+      "created_at": null,
+      "updated_at": "2025-01-06T12:21:52.000000Z",
+      "enabled": 1
+    },
+     {
+      "id": 36,
+      "name": "Neville Ng\'ambwa",
+      "job_title": "Production Manager",
+      "thumbnail_url": "/img/team/thumb/nevile.png",
+      "short_description": "The master craftsman at Aidias Factory, turning wild ideas into flawless productions.",
+      "created_at": null,
+      "updated_at": "2025-01-06T12:21:52.000000Z",
+      "enabled": 1
+    },
+    {
+      "id": 36,
+      "name": "Neville Ng\'ambwa",
+      "job_title": "Jennifer Temba",
+      "thumbnail_url": "/img/team/thumb/jennifer-temba.png",
+      "short_description": "The voice, vibe, and vision behind Aidias Factory’s client magic.",
+      "created_at": null,
+      "updated_at": "2025-01-06T12:21:52.000000Z",
       "enabled": 1
     }
   ]
