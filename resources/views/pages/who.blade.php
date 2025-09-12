@@ -134,7 +134,7 @@
         /* Main container */
         .who .fresh-faces-section .section-content .fresh-faces-container {
             display: grid;
-            grid-template-columns: repeat(4, 1fr); /* 6 equal columns */
+            grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
             grid-auto-rows: 350px; /* default row height (adjust to fit images) */
             gap: 20px; /* space between items */
         }
@@ -144,6 +144,7 @@
             position: relative;
             overflow: hidden;
             border-radius: 12px;
+            padding-top: 105px;
         }
 
         /* Images inside */
