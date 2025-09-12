@@ -17,26 +17,7 @@ Route::get('how-we-do-it', function () {
 Route::get('who-we-are', function () {
     $json = '{
   "Management": [
-    {
-      "id": 1,
-      "name": "Peter Otieno Odawo",
-      "job_title": "Founder & C.E.O",
-      "thumbnail_url": "/img/team/thumb/peter-otieno.jpeg",
-      "short_description": "The dreamer, builder, and leader shaping Aidias Factory’s journey.",
-      "created_at": null,
-      "updated_at": "2025-01-06T12:21:52.000000Z",
-      "enabled": 1
-    },
-    {
-      "id": 2,
-      "name": "Maureen Chelimo",
-      "job_title": "HR & Comms Director",
-      "thumbnail_url": "/img/team/thumb/maureen-chelimo.jpeg",
-      "short_description": "The voice of the brand, keeping Aidias Factory inspired inside and out.",
-      "created_at": null,
-      "updated_at": "2025-01-06T12:21:52.000000Z",
-      "enabled": 1
-    },
+
     {
       "id": 3,
       "name": "Faith Wanjiru",
