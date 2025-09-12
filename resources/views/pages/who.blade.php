@@ -134,8 +134,8 @@
         /* Main container */
         .who .fresh-faces-section .section-content .fresh-faces-container {
             display: grid;
-            grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
-            grid-auto-rows: 250px; /* default row height (adjust to fit images) */
+            grid-template-columns: repeat(4, 1fr); /* 6 equal columns */
+            grid-auto-rows: 350px; /* default row height (adjust to fit images) */
             gap: 20px; /* space between items */
         }
 

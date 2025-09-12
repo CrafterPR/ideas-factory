@@ -18,37 +18,27 @@ Route::get('who-we-are', function () {
     $json = '{
   "Management": [
     {
-      "id": 36,
+      "id": 1,
       "name": "Peter Otieno Odawo",
       "job_title": "Founder & C.E.O",
-      "thumbnail_url": "/img/team/thumb/placeholder.jpeg",
-      "short_description": "Proof that when creativity meets strategy, magic happens.",
+      "thumbnail_url": "/img/team/thumb/peter-otieno.jpeg",
+      "short_description": "The dreamer, builder, and leader shaping Aidias Factory’s journey.",
       "created_at": null,
       "updated_at": "2025-01-06T12:21:52.000000Z",
       "enabled": 1
     },
     {
-      "id": 36,
+      "id": 2,
       "name": "Maureen Chelimo",
       "job_title": "HR & Comms Director",
-      "thumbnail_url": "/img/team/thumb/placeholder.jpeg",
+      "thumbnail_url": "/img/team/thumb/maureen-chelimo.jpeg",
       "short_description": "The voice of the brand, keeping Aidias Factory inspired inside and out.",
       "created_at": null,
       "updated_at": "2025-01-06T12:21:52.000000Z",
       "enabled": 1
     },
     {
-      "id": 36,
-      "name": "Mwangi Muiga",
-      "job_title": "Events & AV Manager",
-      "thumbnail_url": "/img/team/thumb/mwangi-muiga.png",
-      "short_description": "Turning Aidias Factory’s events into experiences and Audio-Visual into pure magic.",
-      "created_at": null,
-      "updated_at": "2025-01-06T12:21:52.000000Z",
-      "enabled": 1
-    },
-     {
-      "id": 36,
+      "id": 3,
       "name": "Faith Wanjiru",
       "job_title": "Admin Manager",
       "thumbnail_url": "/img/team/thumb/faith-wanjiru.png",
@@ -57,22 +47,52 @@ Route::get('who-we-are', function () {
       "updated_at": "2025-01-06T12:21:52.000000Z",
       "enabled": 1
     },
-     {
-      "id": 36,
-      "name": "Neville Ng\'ambwa",
-      "job_title": "Production Manager",
-      "thumbnail_url": "/img/team/thumb/nevile.png",
-      "short_description": "The master craftsman at Aidias Factory, turning wild ideas into flawless productions.",
+    {
+      "id": 4,
+      "name": "Godfrey Mwangi Muiga",
+      "job_title": "Events & AV Manager",
+      "thumbnail_url": "/img/team/thumb/mwangi-muiga.png",
+      "short_description": "The pulse, precision, and performance behind Aidias Factory’s unforgettable events.",
       "created_at": null,
       "updated_at": "2025-01-06T12:21:52.000000Z",
       "enabled": 1
     },
     {
-      "id": 36,
+      "id": 5,
       "name": "Neville Ng\'ambwa",
-      "job_title": "Jennifer Temba",
+      "job_title": "Production Manager",
+      "thumbnail_url": "/img/team/thumb/nevile.png",
+      "short_description": "The craft, cadence, and control behind every flawless delivery",
+      "created_at": null,
+      "updated_at": "2025-01-06T12:21:52.000000Z",
+      "enabled": 1
+    },
+    {
+      "id": 6,
+      "name": "Jeniffer Temba",
+      "job_title": "Client Service Manager",
       "thumbnail_url": "/img/team/thumb/jennifer-temba.png",
-      "short_description": "The voice, vibe, and vision behind Aidias Factory’s client magic.",
+      "short_description": "The pulse, passion, and partnership behind every client win at Aidias Factory.",
+      "created_at": null,
+      "updated_at": "2025-01-06T12:21:52.000000Z",
+      "enabled": 1
+    },
+    {
+      "id": 7,
+      "name": "Haron Ronoh",
+      "job_title": "Assistance Audio Visual Manager",
+      "thumbnail_url": "/img/team/thumb/haron-ronoh.png",
+      "short_description": "The energy, execution, and excellence powering Aidias Factory’s events and AV magic..",
+      "created_at": null,
+      "updated_at": "2025-01-06T12:21:52.000000Z",
+      "enabled": 1
+    },
+    {
+      "id": 8,
+      "name": "Joseph Ochieng",
+      "job_title": "Assistance Production Manager",
+      "thumbnail_url": "/img/team/thumb/jose-ochieng.png",
+      "short_description": "Supporting smooth operations by coordinating production processes and ensuring efficiency",
       "created_at": null,
       "updated_at": "2025-01-06T12:21:52.000000Z",
       "enabled": 1
