@@ -77,6 +77,16 @@ Route::get('who-we-are', function () {
       "created_at": null,
       "updated_at": "2025-01-06T12:21:52.000000Z",
       "enabled": 1
+    },
+    {
+      "id": 8,
+      "name": "Grace Kange\'the",
+      "job_title": "Administration & Event Coordinator",
+      "thumbnail_url": "/img/team/thumb/grace-kangethe.png",
+      "short_description": "The detail-driven force orchestrating seamless operations and unforgettable experiences at Aidias Factory.",
+      "created_at": null,
+      "updated_at": "2025-01-06T12:21:52.000000Z",
+      "enabled": 1
     }
   ]
 }
