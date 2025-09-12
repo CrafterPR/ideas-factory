@@ -31,7 +31,7 @@ Route::get('who-we-are', function () {
     {
       "id": 4,
       "name": "Godfrey Mwangi Muiga",
-      "job_title": "Events & AV Manager",
+      "job_title": "Events & Audio Visual Manager",
       "thumbnail_url": "/img/team/thumb/mwangi-muiga.png",
       "short_description": "The pulse, precision, and performance behind Aidias Factory’s unforgettable events.",
       "created_at": null,
